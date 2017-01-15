@@ -1,0 +1,190 @@
+@media all {html {font-size: 16px;}}
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    box-sizing: border-box;
+    color: inherit;
+    text-decoration: inherit;
+}
+
+doc {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 0px solid blue;
+}
+body{
+    margin: auto;
+
+    padding: 3rem;
+    padding-top: 1rem;
+    
+    max-width: 860px;
+
+    font-size: 1.2rem;
+
+    font-family:"Avenir";sans-serif;    
+    
+    line-height: 28px;
+    
+    color: #212121;
+    
+    background-color: #FFFFFF;
+}
+
+li {
+    list-style-type: none;
+}
+
+ol{
+    margin: 20px 10px;
+    
+    list-style-type: decimal;
+}
+
+<!------ HEADERS -------->
+h1, h2, h3, h4, h5, h6{
+    display: inline;
+    font-family:"Avenir", sans-serif;
+}
+h1{ 
+    font-size:28px;
+    font-weight: 500;
+    text-align:left;
+    
+    display: inline;
+}
+h2{
+    color: #616161;
+    
+    display: inline;
+
+    padding: 0 0 0 2%;
+    font-weight:lighter;
+    font-size:22px;
+}
+
+h3{
+    width:80%;
+    max-width:600px;
+
+    font-size:20px;
+    font-weight:lighter;
+
+}
+h4{    
+    font-size:120%;
+    
+    padding: 0px 20px 0px 0px;  
+}
+
+/*-------- Section settings -------*/
+section {
+    width: 100%;
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    
+    padding-top: 0.5rem;
+    
+    border-top: 1px solid #ccc;
+}
+
+
+/*--------- Header Section ----------*/
+top-section {
+    column-count: 1;    
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1;    /* Firefox */
+
+    column-width: 150px;
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
+   
+    width: 100%;
+
+    font-size: 105%;
+
+    margin: auto;
+    
+    padding:20px 0px 20px 0px;
+}
+
+/*---------  Section titles --------*/
+section-title {
+    width: 24rem;
+    text-align: left;
+}
+
+/*--------- Section-Content styling ----------*/
+section-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    color: #616161; // if changed, change topsection a color and entryprev in post-style 
+
+}
+section-content:last-child {
+    padding-bottom: .5em;
+}
+/*--------- Head Navigator ---------*/
+
+
+/*--- Link colors 
+#1FDA9A - green
+#28ABE3 - blue
+#F7EAC8 - beige
+#E8B71A - gold tips
+#DB3340 - red
+---*/
+/*--------- Links ------------*/
+a, a:hover{
+    -o-transition:  .35s;
+    -ms-transition: .35s;
+    -moz-transition: .35s;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+top-section a {
+    color: #28ABE3;
+}
+
+top-section a:hover {
+    color: #616161;  // if changed change entry-previews and ol color
+}
+
+section a {
+    font-weight: 600;
+    color: #1dc48b;
+}
+
+section a:hover {
+    text-decoration: inherit;
+    
+    background-size: cover;
+    background-color: #fff8e1;
+}
+
+a:link, a:visited {
+    text-decoration:none;
+    text-style:visited;
+}
+
+
+@media all and (max-width:650px) {
+@media all and (max-width:650px){html {font-size: 16px;}}
+@media all and (max-width:590.0px){html {font-size: 15px;}}
+@media all and (max-width:530.0px){html {font-size: 13px;}}
+  body {padding: 1rem;}
+  section {flex-direction: column;}
+  section-title {width: 100%; margin-bottom: 1rem;}
+  section-content li {width: 100%;}
+}
