@@ -1,8 +1,7 @@
 @media all {html {font-size: 16px;}}
 
 
-
-*{
+* {
     margin: 0;
     padding: 0;
     line-height: 1.6;
@@ -17,6 +16,7 @@ doc {
     flex-wrap: nowrap;
     border: 0px solid blue;
 }
+
 body{
     margin: auto;
 
@@ -46,7 +46,7 @@ ol{
     list-style-type: decimal;
 }
 
-<!------ HEADERS -------->
+/*-------- Header settings -------*/
 h1, h2, h3, h4, h5, h6{
     display: inline;
     font-family:"Avenir", sans-serif;
@@ -129,7 +129,9 @@ section-content {
     justify-content: space-between;
     flex-wrap: wrap;
     width: 100%;
-    color: #616161; // if changed, change topsection a color and entryprev in post-style 
+    /* if changed, change topsection a color and entryprev in post-style */
+    color: #616161;
+    
 
 }
 section-content:last-child {
@@ -139,7 +141,7 @@ section-content:last-child {
 
 
 /*--- Link colors 
-#1FDA9A - green
+#1FDA9A - lightgreen
 #28ABE3 - blue
 #F7EAC8 - beige
 #E8B71A - gold tips
@@ -154,11 +156,12 @@ a, a:hover{
     transition: .35s;
 }
 top-section a {
-    color: #28ABE3;
+    color: #616161;
 }
 
 top-section a:hover {
-    color: #616161;  // if changed change entry-previews and ol color
+    /* if changed change entry-previews and ol color */
+    color: #1FDA9A;  
 }
 
 section a {
