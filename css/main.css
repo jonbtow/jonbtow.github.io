@@ -105,7 +105,8 @@ top-section {
     -moz-column-count: 1;
     /* Firefox */
     column-width: 150px;
-    -webkit-column-width: 150px -moz-column-width: 150px;
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
     width: 100%;
     font-size: 105%;
     margin: auto;
