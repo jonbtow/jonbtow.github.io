@@ -1,45 +1,33 @@
-
 /*--------- Post preview --------*/
 
 .post-preview {
-  
     text-align: left;
-
-    font-family:"Avenir", sans-serif;
-
+    font-family: "Avenir", sans-serif;
     max-width: 600px;
-
     color: #616161;
-
     padding-bottom: 1em;
 }
 
-.entry-previews{
-    font-family:"Avenir", sans-serif;
-    
+.entry-previews {
+    font-family: "Avenir", sans-serif;
     padding: 0px 0px 20px 20px;
-    
     list-style-type: decimal;
 }
 
-
 .post-section {
-    column-count: 1;    
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1;    /* Firefox */
-
+    column-count: 1;
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
     column-width: 150px;
     -webkit-column-width: 150px;
     -moz-column-width: 150px;
-   
     width: 100%;
-    
     margin: auto;
-
     padding: 20px 20px 40px 20px;
-
 }
 
 .post-section h1 {
-    font-size:115%;
+    font-size: 115%;
 }
