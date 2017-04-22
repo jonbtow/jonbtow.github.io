@@ -69,9 +69,10 @@ h1 {
 h2 {
     color: #616161;
     display: inline;
-    padding: 0 10% 0 10%;
+    padding: 0 20% 0 0%;
     font-weight: lighter;
     font-size: 22px;
+    border-style: none;
 }
 
 h3 {
