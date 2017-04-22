@@ -36,6 +36,9 @@ body {
 .navbar {
     background-color: #FFFFFF;
     border-style: none;
+
+}
+.nav .li  {
     padding: 20px 0px 0px 20px;
 }
 
