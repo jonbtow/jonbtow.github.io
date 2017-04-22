@@ -1,6 +1,6 @@
 name: jon tow
 rouge: true
-baseurl: /about
+baseurl: /_pages
 
 highlighter: rouge
 markdown: kramdown
@@ -9,3 +9,4 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
+permalink: /:title/
