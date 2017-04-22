@@ -186,6 +186,10 @@ a:link,
 a:visited {
     text-decoration: none;
     text-style: visited;
+    
+}
+
+a:active {
     color: #1FDA9A;
 }
 
