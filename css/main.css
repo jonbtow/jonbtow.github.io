@@ -36,6 +36,7 @@ body {
 .navbar {
     background-color: #FFFFFF;
     border-style: none;
+    padding: 20px 0px 0px 20px;
 }
 
 li {
