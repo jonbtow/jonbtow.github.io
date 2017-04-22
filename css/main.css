@@ -186,6 +186,7 @@ a:link,
 a:visited {
     text-decoration: none;
     text-style: visited;
+    color: #1FDA9A;
 }
 
 @media all and (max-width:650px) {
