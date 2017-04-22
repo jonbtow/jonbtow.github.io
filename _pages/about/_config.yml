@@ -1,6 +1,6 @@
 name: jon tow
 rouge: true
-baseurl: /_pages
+baseurl: /_pages/about
 
 highlighter: rouge
 markdown: kramdown
