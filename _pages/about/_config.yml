@@ -9,4 +9,3 @@ kramdown:
   auto_ids: true
   syntax_highlighter: rouge
 
-permalink: /:title/

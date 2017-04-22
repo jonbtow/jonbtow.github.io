@@ -10,4 +10,3 @@ kramdown:
   syntax_highlighter: rouge
 
 include: ["_pages"]
-permalink: /:title/
