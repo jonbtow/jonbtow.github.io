@@ -1,32 +1,84 @@
 ---
-layout: default
-title: Home
+layout: page
+title: About
 ---
 
+<!-- Projects Section -->
+<section>
+    <section-title>Projects</section-title>
+    <section-content>
+        <p>
+        </p>
+    </section-content>
+</section>
+<!-------------------->
 
-<!-- Blog Previews -->
-<section class="post-preview-section">
-    <ol class="entry-previews">
 
-        {% for post in site.posts %}
+
+<!-- Education Section -->
+<section>
+    <section-title>Education</section-title>
+    <section-content>
+        <!-- column 1-->
+        <ul>
+            <li>
+                2015 - Present
+            </li>
+	    
+	</ul>
+	<!-- column 2-->
+	<ul>
+            <li>
+                Stony Brook University.
+                <br> BS in Computer Science
+                <br> BS in Applied Math and Statistics
+            </li>
+        </ul>
+    </section-content>
+</section>
+<!-------------------->
+
+
+
+<!-- Email Section -->
+<section>
+    <section-title>Email</section-title>
+    <section-content>
+      <ul>
         <li>
-            <p class="post-preview">
-
-                <a href="{{ post.url }}">
-		  {{ post.title }}
-		</a>
-
-                <br> {{ post.content | strip_html | truncatewords: 50 }}
-
-                <a href="{{ post.url }}">
-		  (read more)
-		</a>
-
-                <br> - {{ post.date | date: '%B %d, %Y' }}
-            </p>
+            <a href="mailto:jonathantow8@gmail.com">
+                <em>
+		  jonathantow8@gmail.com
+		</em>
+            </a>
         </li>
-        {% endfor %}
-	
-    </ol>
+      </ul>
+    </section-content>
+</section>
+<!-------------------->
+
+
+<!-- Social Media Section -->
+<section>
+    <section-title>Social</section-title>
+    <section-content>
+        <ul>
+            <li>
+                <a href="https://twitter.com/jonbtow">
+                    <em>
+		      Twitter
+		    </em>
+                </a>
+            </li>
+	    
+            <li>
+                <a href="https://github.com/jonbtow?tab=repositories">
+                    <em>
+		      Github
+		    </em>
+                </a>
+	    </li>
+        </ul>
+    </section-content>
 </section>
 <!-------------------->
