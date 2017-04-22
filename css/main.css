@@ -33,6 +33,10 @@ body {
     background-color: #FFFFFF;
 }
 
+.navbar {
+    background-color: #FFFFFF;
+}
+
 li {
     list-style-type: none;
 }
