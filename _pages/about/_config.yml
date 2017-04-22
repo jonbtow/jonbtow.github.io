@@ -1,0 +1,12 @@
+name: jon tow
+rouge: true
+baseurl: /about
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+permalink: /:title/
