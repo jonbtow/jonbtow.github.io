@@ -177,6 +177,8 @@ a:hover {
     font-weight: 500;
     text-align: left;
     display: inline;
+        color: #1FDA9A;
+
 }
 
 .navbar-brand:hover {
