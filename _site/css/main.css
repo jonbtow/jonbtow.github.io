@@ -36,8 +36,8 @@ body {
 .navbar {
     background-color: #FFFFFF;
     border-style: none;
-
 }
+
 .nav .li  {
     padding: 20px 0px 0px 20px;
 }
@@ -66,6 +66,8 @@ h6 {
 .navbar-brand {
     font-size: 28px;
     font-weight: 500;
+    text-align: left;
+    display: inline;
 }
 
 h1 {
