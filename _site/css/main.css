@@ -177,10 +177,11 @@ a:hover {
     font-weight: 500;
     text-align: left;
     display: inline;
-        color: #1FDA9A;
 
 }
-
+navbar-header a:hover {
+     color: #1FDA9A;
+}
 .navbar-brand:hover {
     /* if changed change entry-previews and ol color */
     color: #1FDA9A;
