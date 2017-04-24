@@ -92,7 +92,7 @@ h4 {
     padding: 0px 20px 0px 0px;
 }
 
-
+text-center
 /*-------- Section settings -------*/
 
 section {
@@ -162,7 +162,6 @@ section-content:last-child {
 
 
 /*--------- Links ------------*/
-.navbar-brand 
 a,
 a:hover {
     -o-transition: .35s;
