@@ -21,13 +21,13 @@ title: Projects
         <li>
             <p class="post-preview">
 
-                <a href="{{ projects.url }}">
-		  {{ projects.title }}
+                <a href="{{ project.url }}">
+		  {{ project.title }}
 		</a>
 
-                <br> {{ projects.content | strip_html | truncatewords: 50 }}
+                <br> {{ project.content | strip_html | truncatewords: 50 }}
 
-                <a href="{{ projects.url }}">
+                <a href="{{ project.url }}">
 		  (read more)
 		</a>
             </p>
