@@ -144,6 +144,7 @@ section-content {
     width: 100%;
     /* if changed, change topsection a color and entryprev in post-style */
     color: #616161;
+    
 }
 
 section-content:last-child {

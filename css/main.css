@@ -145,14 +145,6 @@ section-content {
     /* if changed, change topsection a color and entryprev in post-style */
     color: #616161;
     
-    column-count: 1;
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-width: 150px;
-    -webkit-column-width: 150px;
-    -moz-column-width: 150px;
 }
 
 section-content:last-child {
