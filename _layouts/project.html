@@ -4,9 +4,9 @@
 <section>
     <div class="project">
 
-        <h1>{{ page.title }}</h1> 
+        <h1>{{ project.title }}</h1> 
         
-        <p>{{ page.introduction }}</p>
+        <p>{{ project.introduction }}</p>
 
         {{ content }}        
         
@@ -14,7 +14,7 @@
 </section>
 
 <!--    DISQUS SET UP         -->
-    {% if page.comments %} 
+    {% if project.comments %} 
 <div id="disqus_thread"></div>
 <script>
 
