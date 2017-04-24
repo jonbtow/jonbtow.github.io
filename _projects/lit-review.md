@@ -6,14 +6,6 @@ title: Literature View On Game Based Object Oriented Teaching
 
 introduction: This is a review on studies based on game based teaching strategies for object oriented teaching.
 ---
-<object data="/data/projects/literature_review.pdf"
-        type="application/pdf" width="100%" height="200%">
-    <iframe src="/data/projects/literature_review.pdf#page=1" 
-            width="100%" height="200%" style="border: none;">            
-    This browser does not support PDFs. Please download the PDF to view it:
-    <a href="/data/projects/literature_review.pdf">Download Literature Review</a>
-</iframe>
-</object>
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script src="http://ajax.aspnetcdn.com/ajax/jquery.ui/1.8.9/jquery-ui.js" type="text/javascript"></script>
@@ -48,6 +40,6 @@ introduction: This is a review on studies based on game based teaching strategie
         });
     });
 </script>
-<input id="btnShow" type="button" value="Show PDF" />
+<input id="btnShow" type="button" value="Show PDF" style="padding: 10px 10 px 10px 10px;" />
 <div id="dialog" style="display: none">
 </div>
