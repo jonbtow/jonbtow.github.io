@@ -11,4 +11,6 @@ kramdown:
 relative_permalinks: false
 
 collections:
-- projects
+ projects: 
+    output: true
+    permalink: /projects/:path/
