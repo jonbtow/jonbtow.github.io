@@ -92,7 +92,7 @@ h4 {
     padding: 0px 20px 0px 0px;
 }
 
-text-center
+
 /*-------- Section settings -------*/
 
 section {
@@ -184,7 +184,12 @@ a:hover {
     /* if changed change entry-previews and ol color */
     color: none;
 }
-
+.navbar a {
+    background-color: #616161;
+}
+.navbar a:hover {
+    color: #1FDA9A;
+}
 top-section a {
     color: #616161;
 }
