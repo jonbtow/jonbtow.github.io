@@ -3,12 +3,44 @@ layout: page
 title: Projects
 ---
 
-<!-- Projects Section -->
+<!-- Projects Section 
 <section>
     <section-title>Projects</section-title>
     <section-content>
         <p>
         </p>
     </section-content>
+</section>
+<!-------------------->
+
+<!-- Blog Previews -->
+<section class="post-preview-section">
+    <ol class="entry-previews">
+        {% assign projects = site.projects | sort: 'order' %}
+
+        {% for project in projects %}
+         {% if section.include != null %}
+            {% include {{ section.include }} %}
+        {% else %}
+            {% include sections/default.html %}
+        {% endif %}
+        
+        <li>
+            <p class="post-preview">
+
+                <a href="{{ projects.url }}">
+		  {{ post.title }}
+		</a>
+
+                <br> {{ projects.content | strip_html | truncatewords: 50 }}
+
+                <a href="{{ projects.url }}">
+		  (read more)
+		</a>
+            </p>
+        </li>
+        {% endfor %}
+	
+    </ol>
 </section>
 <!-------------------->
