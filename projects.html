@@ -18,6 +18,9 @@ title: Projects
     <ol class="entry-previews">
         {% assign projects = site.projects | sort: 'order' %}
         {% for project in projects %}
+          {% if project.include != null %}
+            {% include {{ project.include }} %}
+        {% endif %}
         <li>
             <p class="post-preview">
 
