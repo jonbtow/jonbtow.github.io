@@ -5,6 +5,6 @@ comments: true
 title: Aladdin the Musical News Release
 introduction: This is the first post 
 
-permalink: news-release.html
+permalink: news-release.md
 ---
 
