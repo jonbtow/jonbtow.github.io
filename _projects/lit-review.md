@@ -19,7 +19,11 @@ introduction: This is a review on studies based on game based teaching strategie
                 title: fileName,
                 width: 540,
                 height: 450,
-               
+                buttons: {
+                    Close: function () {
+                        $(this).dialog('close');
+                    }
+                },
                 open: function () {
                     var object = "<object data=\"{FileName}\"
                                           type=\"application/pdf\"
