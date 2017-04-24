@@ -17,19 +17,12 @@ title: Projects
 <section class="post-preview-section">
     <ol class="entry-previews">
         {% assign projects = site.projects | sort: 'order' %}
-
         {% for project in projects %}
-         {% if section.include != null %}
-            {% include {{ section.include }} %}
-        {% else %}
-            {% include sections/default.html %}
-        {% endif %}
-        
         <li>
             <p class="post-preview">
 
                 <a href="{{ projects.url }}">
-		  {{ post.title }}
+		  {{ projects.title }}
 		</a>
 
                 <br> {{ projects.content | strip_html | truncatewords: 50 }}
