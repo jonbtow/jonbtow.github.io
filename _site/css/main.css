@@ -180,16 +180,14 @@ a:hover {
 
 }
 
-.navbar-brand a:hover{
-    /* if changed change entry-previews and ol color */
-    color: none;
-}
+
 .navbar a {
     color: #616161;
 }
 .navbar a:hover {
     color: #1FDA9A;
 }
+
 top-section a {
     color: #616161;
 }
