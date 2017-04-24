@@ -48,7 +48,9 @@ ol {
     list-style-type: decimal;
 }
 
-
+.text-center {
+    padding-top: 15px;
+}
 /*-------- Header settings -------*/
 
 h1,
