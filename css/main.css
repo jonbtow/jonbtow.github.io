@@ -141,6 +141,7 @@ section-content {
     width: 100%;
     /* if changed, change topsection a color and entryprev in post-style */
     color: #616161;
+    padding-left: 15px;
 }
 
 section-content:last-child {
