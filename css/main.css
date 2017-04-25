@@ -94,7 +94,6 @@ h4 {
     padding: 0px 20px 0px 0px;
 }
 
-
 /*-------- Section settings -------*/
 
 section {
@@ -198,11 +197,15 @@ a:hover {
 
 }
 
+a {
+    background-color: #222;
+    color: #080808;
+}
 
-.nav a {
+.navbar-inverse a {
     color: #616161;
 }
-.nav a:hover {
+.navbar-inverse  a:hover {
     color: #1FDA9A;
 }
 
