@@ -233,7 +233,7 @@ a:active {
     color: #1FDA9A;
 }
 .bio-pic {
-    padding:30px;
+    align-content:center;
 }
 @media all and (max-width:650px) {
     @media all and (max-width: 650px) {
