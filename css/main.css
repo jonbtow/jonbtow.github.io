@@ -198,10 +198,10 @@ a:hover {
 }
 
 
-.navbar-inverse a {
+.navbar .navbar-inverse a {
     color: #616161;
 }
-.navbar-inverse  a:hover {
+.navbar .navbar-inverse a:hover {
     color: #1FDA9A;
 }
 
