@@ -5,18 +5,17 @@
     <description></description>
     <link>/home/</link>
     <atom:link href="/home/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Mon, 24 Apr 2017 19:53:34 -0400</pubDate>
-    <lastBuildDate>Mon, 24 Apr 2017 19:53:34 -0400</lastBuildDate>
+    <pubDate>Mon, 24 Apr 2017 22:04:57 -0400</pubDate>
+    <lastBuildDate>Mon, 24 Apr 2017 22:04:57 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
-        <title>My First Post</title>
-        <description>&lt;p&gt;This is the first post mic check 1..2..1..2&lt;/p&gt;
-
+        <title>What I liked about CSE 300.</title>
+        <description>
 </description>
-        <pubDate>Thu, 05 Jan 2017 00:00:00 -0500</pubDate>
-        <link>/home/2017/01/05/Diving-In.html</link>
-        <guid isPermaLink="true">/home/2017/01/05/Diving-In.html</guid>
+        <pubDate>Tue, 25 Apr 2017 00:00:00 -0400</pubDate>
+        <link>/home/2017/04/25/CSE-300.html</link>
+        <guid isPermaLink="true">/home/2017/04/25/CSE-300.html</guid>
         
         
       </item>
