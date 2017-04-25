@@ -234,6 +234,7 @@ a:active {
 }
 .bio-pic {
     margin: auto;
+    padding:10px;
 }
 @media all and (max-width:650px) {
     @media all and (max-width: 650px) {
