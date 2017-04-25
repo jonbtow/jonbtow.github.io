@@ -16,7 +16,7 @@ title: Blog
 		  {{ post.title }}
 		</a>
 
-                <br> {{ post.content | strip_html | truncatewords: 50 }}
+                <br> {{ post.introduction }}
 
                 <a href="{{ post.url }}">
 		  (read more)
