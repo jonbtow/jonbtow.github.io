@@ -33,16 +33,6 @@ body {
     background-color: #FFFFFF;
 }
 
-.navbar {
-    background-color: #FFFFFF;
-    border-style: none;
-    padding-left: none;
-}
-
-navbar-header {
-    padding: none;
-}
-
 li {
     list-style-type: none;
 }
@@ -55,6 +45,8 @@ ol {
 .text-center {
     padding: 15px 0px 15px 0px;
 }
+
+
 /*-------- Header settings -------*/
 
 h1,
@@ -132,7 +124,6 @@ section-title {
     text-align: left;
 }
 
-
 /*--------- Section-Content styling ----------*/
 
 section-content {
@@ -156,7 +147,6 @@ section-content {
     -webkit-column-rule: 4px outset #ff00ff; /* Chrome, Safari, Opera */
     -moz-column-rule: 4px outset #ff00ff; /* Firefox */
     column-rule: 4px outset #ff00ff;
-    
 }
 
 section-content:last-child {
@@ -168,6 +158,11 @@ section-title {
 }
 /*--------- Head Navigator ---------*/
 
+.navbar {
+    background-color: #FFFFFF;
+    border-style: none;
+    padding-left: none;
+}
 
 /*--- Link colors 
 #1FDA9A - lightgreen
@@ -196,7 +191,6 @@ a:hover {
     display: inline;
 
 }
-
 
 .navbar-default  a {
     color: #616161;
@@ -238,7 +232,9 @@ a:visited {
 a:active {
     color: #1FDA9A;
 }
-
+.bio-pic {
+    padding:30px;
+}
 @media all and (max-width:650px) {
     @media all and (max-width: 650px) {
         html {
