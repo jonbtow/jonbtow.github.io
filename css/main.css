@@ -203,6 +203,10 @@ a:hover {
 }
 
 
+#myNavbar a:active {
+    border: 0px solid #1FDA9A;
+    
+}
 #myNavbar a:hover {
     color: #1FDA9A;
 }
