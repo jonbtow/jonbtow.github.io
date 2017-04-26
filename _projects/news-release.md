@@ -10,4 +10,5 @@ introduction: A press release for Aladdin the Musical
             width="100%" height="800px"> 
     </object>
 </center>
+It appears your Browser does not support PDF viewings.<br>
 <a href="/data/projects/news_release.pdf"> Link to Paper </a>
