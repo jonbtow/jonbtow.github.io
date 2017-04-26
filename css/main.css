@@ -145,9 +145,9 @@ section-content {
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
 
-    -webkit-column-rule: 4px outset #ff00ff; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px outset #ff00ff; /* Firefox */
-    column-rule: 4px outset #ff00ff;
+    -webkit-column-rule: 4px outset #FFFFFF; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #FFFFFF; /* Firefox */
+    column-rule: 4px outset #FFFFFF;
 }
 
 section-content:last-child {
@@ -201,13 +201,13 @@ a:hover {
 }
 #myNavbar li.active a {
     background-color: #FFFFFF;
-    color: #1FDA9A;
-    border-bottom: 2px solid #1FDA9A;
+    color: #28ABE3;
+    border-bottom: 2px solid #28ABE3;
     
 }
 
 #myNavbar a:hover {
-    color: #1FDA9A;
+    color: #28ABE3;
 }
 
 top-section a {
@@ -216,19 +216,19 @@ top-section a {
 
 top-section a:hover {
     /* if changed change entry-previews and ol color */
-    color: #1FDA9A;
+    color: #28ABE3;
 }
 
 section a {
     font-weight: 600;
-    color: #1dc48b;
+    color: #28ABE3;
 }
 
 section a:hover {
     text-decoration: inherit;
     background-size: cover;
     background-color: #fff8e1;
-    color: #1FDA9A;
+    color: #28ABE3;
 
 }
 
