@@ -202,15 +202,8 @@ a:hover {
 
 }
 
-.navbar-default  a {
-    color: #616161;
-}
 
-.navbar-default  a:hover {
-    color: #1FDA9A;
-}
-
-.nav .navbar-nav  a:hover {
+#myNavbar a:hover {
     color: #1FDA9A;
 }
 
