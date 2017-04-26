@@ -209,6 +209,10 @@ a:hover {
     border-bottom: 2px solid #1FDA9A;
     
 }
+ a:active {
+    border-bottom: 2px solid #1FDA9A;
+    
+}
 #myNavbar a:hover {
     color: #1FDA9A;
 }
