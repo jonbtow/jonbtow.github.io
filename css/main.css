@@ -209,6 +209,8 @@ a:hover {
 }
 #myNavbar a:hover {
     color: #1FDA9A;
+        border: 0px solid #1FDA9A;
+
 }
 
 top-section a {
