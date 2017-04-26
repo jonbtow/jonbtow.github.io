@@ -14,7 +14,9 @@ title: Projects
 <!-------------------->
 
 <!-- Blog Previews -->
+
 <section class="post-preview-section">
+    <section-title>{{label}}</section-title>
     <ol class="entry-previews">
         {% assign projects = site.projects | sort: 'order' %}
         {% for project in projects %}
