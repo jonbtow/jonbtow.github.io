@@ -16,13 +16,14 @@
         
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
-    
+
     <script>
-    $( ".nav li" ).click(function() {
-        $('.nav li').removeClass('active');
-        $(this).addClass('active');
+        $(".nav li").on("click", function() {
+            $(".nav li").removeClass("active");
+            $(this).addClass("active");
     });
     </script>
+    
     <title>Jonathan Tow</title>
     
     </head>
