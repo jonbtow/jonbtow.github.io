@@ -166,14 +166,6 @@ section-title {
 }
 
 
-.navbar-header {
-    color: #616161;
-}
-
-
-.navbar-header a:hover {
-        color: #1FDA9A;
-}
 
 /*--- Link colors 
 #1FDA9A - lightgreen
@@ -209,7 +201,7 @@ a:hover {
 }
 #myNavbar li.active a {
     background-color: #FFFFFF;
-    color:1FDA9A;
+    color: #1FDA9A;
     border-bottom: 2px solid #1FDA9A;
     
 }
