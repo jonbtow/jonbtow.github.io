@@ -160,8 +160,8 @@ section-title {
 /*--------- Head Navigator ---------*/
 
 .navbar {
-    background-color: grey;
    /* background-color: #FFFFFF;*/
+    color: #616161;
     border-style: none;
     padding-left: none;
 }
