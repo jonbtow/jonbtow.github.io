@@ -210,6 +210,10 @@ a:hover {
     color: #1FDA9A;
 }
 
+.navbar-header  a:hover {
+    color: #1FDA9A;
+}
+
 top-section a {
     color: #616161;
 }
