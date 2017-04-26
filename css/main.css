@@ -165,6 +165,12 @@ section-title {
     padding-left: none;
 }
 
+.navbar-header {
+    color: #616161;
+}
+
+
+
 /*--- Link colors 
 #1FDA9A - lightgreen
 #28ABE3 - blue
