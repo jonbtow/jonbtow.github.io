@@ -3,7 +3,7 @@ layout: project
 comments: true
 
 title: Aladdin the Musical News Release
-introduction: A press release for Aladdin the Musical
+introduction: A sample press release for Aladdin the Musical
 ---
 <div class="embed-responsive">
 <object data="/data/projects/news_release.pdf" type="application/pdf"
