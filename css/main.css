@@ -15,7 +15,6 @@
 
 html {
     min-height: 100%;
-    position: relative;
 }
 
 doc {
@@ -40,8 +39,8 @@ body {
 
 footer {
     bottom: 0;
-    position: absolute;
     width: 100%;
+    position: relative;
     height: $height-footer;
     background-color: #f5f5f5;
 }
