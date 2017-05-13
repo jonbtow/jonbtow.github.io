@@ -164,11 +164,11 @@ for the JavaScript code in this tag.
 <h2 id="sec-1">Sections</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-<a href="data/TheAlgorithmHandBook/Crawling/1DescribingAlgorithms/1DescribingAlgorithms.html">Describing Algorithms</a>
+<a href="../data/TheAlgorithmHandBook/Crawling/1DescribingAlgorithms/1DescribingAlgorithms.html">Describing Algorithms</a>
 </p>
 
 <p>
-<a href="data/TheAlgorithmHandBook/Crawling/2SortingAndSearching/2SortingAndSearching.html">Sorting and Searching</a>
+<a href="../data/TheAlgorithmHandBook/Crawling/2SortingAndSearching/2SortingAndSearching.html">Sorting and Searching</a>
 </p>
 
 <p>
