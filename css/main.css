@@ -47,16 +47,11 @@ ol {
 }
 
 footer {
-    position: absolute;
+    /*position: absolute;*/
     bottom: 0;
     max-width: 840px;
     background-color: #28ABE3;
     color: white;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    width: 100%;
 }
 
 .text-center {

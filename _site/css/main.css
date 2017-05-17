@@ -1,8 +1,11 @@
+
+
 @media all {
     html {
         font-size: 16px;
     }
 }
+
 
 * {
     margin: 0;
@@ -21,7 +24,7 @@ doc {
 }
 
 body {
-    margin: auto;
+    margin:auto;
     padding: 3rem;
     padding-top: 1rem;
     max-width: 860px;
@@ -33,16 +36,7 @@ body {
     background-color: #FFFFFF;
 }
 
-.navbar {
-    background-color: #FFFFFF;
-    border-style: none;
-    padding-left: none;
-}
-
-navbar-header {
-    padding: none;
-}
-
+    
 li {
     list-style-type: none;
 }
@@ -52,9 +46,20 @@ ol {
     list-style-type: decimal;
 }
 
+footer {
+    /*position: absolute;*/
+    bottom: 0;
+    max-width: 840px;
+    background-color: #28ABE3;
+    color: white;
+}
+
 .text-center {
     padding: 15px 0px 15px 0px;
+    margin:auto
 }
+
+
 /*-------- Header settings -------*/
 
 h1,
@@ -132,7 +137,6 @@ section-title {
     text-align: left;
 }
 
-
 /*--------- Section-Content styling ----------*/
 
 section-content {
@@ -153,10 +157,9 @@ section-content {
     -moz-column-gap: 40px; /* Firefox */
     column-gap: 40px;
 
-    -webkit-column-rule: 4px outset #ff00ff; /* Chrome, Safari, Opera */
-    -moz-column-rule: 4px outset #ff00ff; /* Firefox */
-    column-rule: 4px outset #ff00ff;
-    
+    -webkit-column-rule: 4px outset #FFFFFF; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #FFFFFF; /* Firefox */
+    column-rule: 4px outset #FFFFFF;
 }
 
 section-content:last-child {
@@ -167,6 +170,13 @@ section-title {
     padding-top: .9em;
 }
 /*--------- Head Navigator ---------*/
+
+.navbar {
+    background-color: #FFFFFF;
+    border-style: none;
+    padding-left: none;
+}
+
 
 
 /*--- Link colors 
@@ -194,16 +204,22 @@ a:hover {
     font-weight: 500;
     text-align: left;
     display: inline;
-
 }
 
 
-.navbar-default  a {
-    color: #616161;
+/* Nav bar active FX */
+#myNavbar a {
+    color: #616161;    
+}
+#myNavbar li.active a {
+    background-color: #FFFFFF;
+    color: #28ABE3;
+    border-bottom: 2px solid #28ABE3;
+    
 }
 
-.navbar-default  a:hover {
-    color: #1FDA9A;
+#myNavbar a:hover {
+    color: #28ABE3;
 }
 
 top-section a {
@@ -212,19 +228,19 @@ top-section a {
 
 top-section a:hover {
     /* if changed change entry-previews and ol color */
-    color: #1FDA9A;
+    color: #28ABE3;
 }
 
 section a {
     font-weight: 600;
-    color: #1dc48b;
+    color: #28ABE3;
 }
 
 section a:hover {
     text-decoration: inherit;
     background-size: cover;
     background-color: #fff8e1;
-    color: #1FDA9A;
+    color: #28ABE3;
 
 }
 
@@ -235,10 +251,11 @@ a:visited {
     
 }
 
-a:active {
-    color: #1FDA9A;
-}
 
+.bio-pic {
+    margin: auto;
+    padding:15px;
+}
 @media all and (max-width:650px) {
     @media all and (max-width: 650px) {
         html {
