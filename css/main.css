@@ -47,7 +47,7 @@ ol {
 }
 
 .footer {
-    position: absolute;
+    position: relative;
     bottom: 0;
     background-color: #28ABE3;
     color: white;
