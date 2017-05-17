@@ -56,12 +56,9 @@ ol {
     -webkit-column-count: 1;
     /* Chrome, Safari, Opera */
     -moz-column-count: 1;
-    /* Firefox */
-    column-width: 150px;
-    -webkit-column-width: 150px;
-    -moz-column-width: 150px;
+
     width: 100%;
-    font-size: 105%;
+    min-width: 840px;
 }
 
 .text-center {
