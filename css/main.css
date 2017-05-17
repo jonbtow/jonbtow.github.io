@@ -49,9 +49,19 @@ ol {
 .footer {
     position: absolute;
     bottom: 0;
-    width:75%;
     background-color: #28ABE3;
     color: white;
+    
+        column-count: 1;
+    -webkit-column-count: 1;
+    /* Chrome, Safari, Opera */
+    -moz-column-count: 1;
+    /* Firefox */
+    column-width: 150px;
+    -webkit-column-width: 150px;
+    -moz-column-width: 150px;
+    width: 100%;
+    font-size: 105%;
 }
 
 .text-center {
