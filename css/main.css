@@ -50,13 +50,12 @@ body {
 
 .content {
     flex: 1 0 auto;
-    background-color: black;
 }
 
 .footer {
     flex: none;
-    
-    background-color: #28ABE3;
+        background-color: #DB3340;
+
     color: white;
 }
 
