@@ -46,9 +46,10 @@ ol {
     list-style-type: decimal;
 }
 
-footer {
+#footer {
     position: absolute;
     bottom: 0;
+    width:100%
     max-width: 840px;
     background-color: #28ABE3;
     color: white;
