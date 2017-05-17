@@ -46,6 +46,15 @@ ol {
     list-style-type: decimal;
 }
 
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    background-color: #28ABE3;
+    color: white;
+}
+
 .text-center {
     padding: 15px 0px 15px 0px;
     margin:auto
