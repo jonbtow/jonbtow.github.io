@@ -49,10 +49,30 @@ ol {
 footer {
     position: absolute;
     bottom: 0;
-    width:100%;
+    width:95%;
     max-width: 840px;
     background-color: #28ABE3;
     color: white;
+        display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+    /* if changed, change topsection a color and entryprev in post-style */
+    color: #616161;
+    
+    /* columns */
+    -webkit-column-count: 3; /* Chrome, Safari, Opera */
+    -moz-column-count: 3; /* Firefox */
+    column-count: 3;
+
+    -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+    column-gap: 40px;
+
+    -webkit-column-rule: 4px outset #FFFFFF; /* Chrome, Safari, Opera */
+    -moz-column-rule: 4px outset #FFFFFF; /* Firefox */
+    column-rule: 4px outset #FFFFFF;
 }
 
 .text-center {
