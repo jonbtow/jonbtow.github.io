@@ -1,5 +1,7 @@
+
 #+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../CSS/org-style.css" />
 #+OPTIONS: html-postamble:nil
+#+OPTIONS: tex:t          Do the right thing automatically (MathJax)
 
 * [[../Home/Home.html][Home]]
 
@@ -28,13 +30,13 @@ int SQUARE(int x) {
 #+END_SRC 
 
 
-** Array Basics 
-   :PROPERTIES:
-   :ID:       BEF830E0-E9CF-4A98-86BA-EAE8CC3E3945
-   :END:
+** array basics 
+   :properties:
+   :id:       bef830e0-e9cf-4a98-86ba-eae8cc3e3945
+   :end:
 
-#+BEGIN_EXAMPLE
- "Nothing beats an array for storing static tabular data."
+#+begin_example
+ "nothing beats an array for storing static tabular data."
      - Kernighan and Pike. The Practice of Programming.
 #+END_EXAMPLE
 
