@@ -160,14 +160,7 @@ To navigate through part sections use the Table of Contents in the <b>top right 
 
 </div>
 </div>
-<div id="outline-container-sec-2" class="outline-2">
-<h2 id="sec-2">Appendix</h2>
-<div class="outline-text-2" id="text-2">
-<p>
-<a href="data/TheAlgorithmHandBook/Crawling/Appendix/P.ProgrammingStyle.html">P. Programming Style</a>
-</p>
-</div>
-</div>
+
 </div>
 </div>
 
