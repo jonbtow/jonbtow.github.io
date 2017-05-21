@@ -151,7 +151,7 @@ for the JavaScript code in this tag.
 <div class="outline-text-2" id="text-1">
 
 <ul>
-<li><a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">I. CRAWLING</a></li>
+<li><a href="../data/TheAlgorithmHandBook/Crawling/">I. CRAWLING</a></li>
 <li><a href="../data/TheAlgorithmHandBook/">II. WALKING</a></li>
 <li><a href="../data/TheAlgorithmHandBook/">III. RUNNING</a></li>
 </ul>
