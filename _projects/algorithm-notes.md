@@ -150,7 +150,7 @@ for the JavaScript code in this tag.
 <h2 id="sec-1">Parts</h2>
 <div class="outline-text-2" id="text-1">
 <p>
-<a href="../data/TheAlgorithmHandBook/Crawling/1DescribingAlgorithms/Crawling/Home/Home.html">Crawling</a>
+<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">Crawling</a>
 </p>
 
 <p>
