@@ -3,8 +3,6 @@ layout: project
 comments: true
 
 title: Part I. Crawling 
-
-
 ---
 
 # Sections
