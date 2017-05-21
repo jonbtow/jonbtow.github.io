@@ -166,6 +166,5 @@ To navigate through part sections use the Table of Contents in the <b>top right 
 </p>
 </div>
 </div>
-</div>
 </body>
 </html>
