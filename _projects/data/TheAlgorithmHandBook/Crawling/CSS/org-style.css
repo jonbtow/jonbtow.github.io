@@ -1,15 +1,13 @@
 a {
     text-decoration: none;
-    color: #666666;
+    color: #28ABE3;
 }
- a:hover{
-    -o-transition:.35s;
-    -ms-transition:.35s;
-    -moz-transition:.35s;
-    -webkit-transition:.35s;
-    transition:.35s;
-    color:#E05D60;
-    text-decoration: underline;
+
+a:hover {
+    text-decoration: inherit;
+    background-size: cover;
+    background-color: #fff8e1;
+    color: #28ABE3;
  }
  
  a:visited{
@@ -24,9 +22,8 @@ h1,h2,h3,h4,h5,h6,legend{
 
 h1{
     font-size:175%;
-
-
 }
+
 h1.title {
 
     font-size: 23pt;
