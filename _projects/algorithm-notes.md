@@ -151,7 +151,15 @@ for the JavaScript code in this tag.
 <div class="outline-text-2" id="text-1">
 
 <p>
-<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">Crawling</a>
+<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">CRAWLING</a>
+</p>
+<br>
+<p>
+<a href="../data/TheAlgorithmHandBook//">WALKING</a>
+</p>
+<br>
+<p>
+<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">RUNNING</a>
 </p>
 
 <p>
