@@ -150,17 +150,11 @@ for the JavaScript code in this tag.
 <h2 id="sec-1">Parts</h2>
 <div class="outline-text-2" id="text-1">
 
-<p>
-<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">CRAWLING</a>
-</p>
-<br>
-<p>
-<a href="../data/TheAlgorithmHandBook//">WALKING</a>
-</p>
-<br>
-<p>
-<a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">RUNNING</a>
-</p>
+<ul>
+<li><a href="../data/TheAlgorithmHandBook/Crawling/Home/Home.html">CRAWLING</a></li>
+<li><a href="../data/TheAlgorithmHandBook/">WALKING</a></li>
+<li><a href="../data/TheAlgorithmHandBook/">RUNNING</a></li>
+</ul>
 
 <p>
 To navigate through part sections use the Table of Contents in the <b>top right corner</b>.
