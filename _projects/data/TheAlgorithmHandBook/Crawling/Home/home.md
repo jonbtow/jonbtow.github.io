@@ -11,7 +11,7 @@ title: Part I. Crawling
 
 [Sorting and Searching](../2SortingAndSearching/2SortingAndSearching.html)
 
-[Simple Data Structures]](../3SimpleDataStructures/3SimpleDataStructures.html)
+[Simple Data Structures](../3SimpleDataStructures/3SimpleDataStructures.html)
 
 To navigate through sections use the Table of Contents in the *top right corner*.
 
