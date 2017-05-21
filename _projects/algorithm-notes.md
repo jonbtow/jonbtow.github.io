@@ -148,7 +148,6 @@ for the JavaScript code in this tag.
 <h2>Table of Contents</h2>
 <div id="text-table-of-contents">
 <ul>
-<li><a href="#sec-1">Sections</a></li>
 <li><a href="#sec-2">Appendix</a></li>
 </ul>
 </div>
