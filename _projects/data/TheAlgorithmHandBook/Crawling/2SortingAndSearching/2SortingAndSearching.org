@@ -125,7 +125,7 @@ Let's count the number of iterations based on the value of the variable i in the
 
 *Each time the outer loop increments i, the inner loop iterates for j the inner loop runs one time less*.
 
-In general the inner loop runs \(n - i\) times. In the last iteration of the outer loop when i equals n - 1, the inner loop iterates just one time. Therefore the total number of inner-loop iterations is 
+In general the inner loop runs $(n - i)$ times. In the last iteration of the outer loop when i equals n - 1, the inner loop iterates just one time. Therefore the total number of inner-loop iterations is 
 
 \[ (n-1) + (n-2) + ... + 2 + 1\]
 
