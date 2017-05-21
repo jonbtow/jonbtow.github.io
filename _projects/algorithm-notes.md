@@ -144,7 +144,6 @@ for the JavaScript code in this tag.
 
 <body>
 <div id="content">
-<h1 class="title">home</h1>
 <div id="table-of-contents">
 
 <div id="outline-container-sec-1" class="outline-2">
