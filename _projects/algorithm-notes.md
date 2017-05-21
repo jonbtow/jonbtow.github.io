@@ -161,14 +161,14 @@ for the JavaScript code in this tag.
 
 
 <div id="outline-container-sec-1" class="outline-2">
-<h2 id="sec-1">Sections</h2>
+<h2 id="sec-1">Parts</h2>
 <div class="outline-text-2" id="text-1">
 <p>
 <a href="../data/TheAlgorithmHandBook/Crawling/1DescribingAlgorithms/Crawling/Home/Home.html">Crawling</a>
 </p>
 
 <p>
-To navigate through sections use the Table of Contents in the <b>top right corner</b>.
+To navigate through part sections use the Table of Contents in the <b>top right corner</b>.
 </p>
 </div>
 </div>
