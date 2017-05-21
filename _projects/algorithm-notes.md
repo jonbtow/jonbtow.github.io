@@ -145,19 +145,6 @@ for the JavaScript code in this tag.
 <div id="content">
 <h1 class="title">home</h1>
 <div id="table-of-contents">
-<h2>Table of Contents</h2>
-<div id="text-table-of-contents">
-<ul>
-<li><a href="#sec-2">Appendix</a></li>
-</ul>
-</div>
-</div>
-
-<div class="figure">
-<p><img src="data/TheAlgorithmHandBook/Crawling/Home/data/home.png" alt="home.png" />
-</p>
-</div>
-
 
 <div id="outline-container-sec-1" class="outline-2">
 <h2 id="sec-1">Parts</h2>
