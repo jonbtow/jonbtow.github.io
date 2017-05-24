@@ -1,0 +1,339 @@
+a {
+    text-decoration: none;
+    color: #28ABE3;
+}
+
+a:hover {
+    text-decoration: inherit;
+    background-size: cover;
+    background-color: #fff8e1;
+    color: #28ABE3;
+ }
+ 
+ a:visited{
+     color: none; 
+ }
+ 
+h1,h2,h3,h4,h5,h6,legend{
+    font-family:"Helvetica Neue","Helvetica","Georgia",Arial,sans-serif;
+    font-weight:700;
+    margin-top:0;
+}
+
+h1{
+    font-size:175%;
+}
+
+h1.title {
+
+    font-size: 23pt;
+    text-align:center;
+}
+.subtitle{
+    font-size:95%; /* of h1 */
+}
+
+h2{
+    font-size:150%;
+}
+
+h3{
+    font-size:140%;
+    padding-top:12%;
+    padding-bottom:5%;
+    text-align:center;
+
+}
+
+h4{
+    font-size:115%;
+}
+
+h5{
+    font-size:110%;
+}
+
+h6{
+    font-size:100%;
+}
+
+h4,h5,h6{
+    
+    color:#E05D60;    
+    font-weight:500;
+}
+
+html{
+    -ms-text-size-adjust:100%;
+    -webkit-text-size-adjust:100%;
+    font-size:100%;
+    height:100%;
+    overflow-x:hidden;
+
+}
+
+body{
+    color: #0D0D0D;
+    font-family:"Verdana", "Garamond",Arial,sans-serif;
+    font-weight:light;
+     
+    min-height:100%;
+    overflow-x:hidden;
+
+    max-width: 680px;
+    margin: 60pt 20pt 0pt 30pt;
+    padding: 0;
+}
+
+p {
+    font-family: Verdana;
+    word-spacing: 1.5px;
+    margin-top: 0; 
+    text-align: justify;
+    font-size: 106%;
+}
+
+
+/* CODE */
+
+
+pre {
+	font-family: Droid Sans Mono, Monaco, Consolas, "Lucida Console", monospace;
+	color: black;
+	font-size: 13px;
+	background-color: #ffffff;
+	padding: 1.2em;
+	border: 2px solid #dddddd;
+	overflow: auto;
+    }
+
+pre.src{
+    /* color:#404040; */
+    Background:    #f2f2f2;
+    font-family:Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;
+    font-size:12px;
+    line-height:1.5;
+color:black;
+    border: none;
+    padding: 5pt;
+    margin-bottom: 14pt;
+    box-shadow: 5px 5px 5px #888;
+    font-size: 95%;
+    overflow: auto; 
+    /* white-space:pre;*/
+}
+pre.src span.org-builtin                     {color:#006FE0;font-weight:bold;}
+pre.src org-string                      {color:#008000;}
+             {color:#FF1493;}
+code {
+    font-family: Consolas,"Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter","DejaVu Sans Mono","Bitstream Vera Sans Mono","Liberation Mono","Nimbus Mono L",Monaco,"Courier New",Courier,monospace;;
+    background-color:  #f2f2f2;
+    padding: 1pt;
+    margin-right: 1pt;
+    box-shadow: 1px 1px 1px #aaa;
+}
+
+
+
+/* TABLE OF CONTENTS */
+
+#table-of-contents header{
+    height:32px;
+    display:inline-block;
+    line-height:32px;
+    padding:0 1.618em;
+    display:block;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size:60%;
+    white-space:nowrap}
+
+#table-of-contents {
+    padding: 2pt 8pt;
+    font-size: 9pt;
+    position: fixed;
+    right: 0em;
+    top: 0em;
+    background: white;
+    -webkit-box-shadow: 0 0 1em #777777;
+    -moz-box-shadow: 0 0 1em #777777;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    text-align: right;
+    /* ensure doesn't flow off the screen when expanded */
+    max-height: 80%;
+    overflow: auto; 
+    z-index: 200;
+}
+#table-of-contents h2{
+    font-family:"Verdana","Helvetica","Georgia",Arial,sans-serif;
+    
+    font-size: 10pt;
+    max-width: 10em;
+    font-weight: normal;
+    padding-right: 0.6em;
+    padding-left: 0.4em;
+    padding-top: 0.05em;
+    padding-bottom: 0.05em;
+
+}
+
+#table-of-contents ul {
+    margin-left: 14pt; 
+    margin-bottom: 7pt;
+    padding: 0
+}
+
+#table-of-contents li {
+    padding: 0;
+    margin: 1px;
+    list-style: none;
+}
+
+#table-of-contents #text-table-of-contents {
+    display: none;
+    text-align: left;
+}
+
+#table-of-contents:hover #text-table-of-contents {
+    display: block;
+    padding: 0.5em;
+    margin-top: -1.5em; 
+}
+
+#table-of-contents a{
+    list-style: none;
+    color:   black;
+    text-decoration: none;
+}
+
+#table-of-contents a:hover{
+    color:   #E05D60;
+}
+
+
+
+
+
+/* PRINTING */
+
+@media print{
+    .codeblock,pre.src{
+        white-space:pre.src-wrap}
+}
+
+@media print{
+    html,body,section{
+        background:none !important}
+
+    *{
+        box-shadow:none !important;
+        text-shadow:none !important;
+        filter:none !important;
+        -ms-filter:none !important}
+
+    a,a:visited{
+          text-decoration:underline}
+
+    pre.src,blockquote{
+        page-break-inside:avoid}
+
+    thead{
+        display:table-header-group}
+
+    tr,img{
+        page-break-inside:avoid}
+
+    img{
+        max-width:100% !important}
+
+    @page{
+        margin:0.5cm}
+
+    p,h2,h3{
+        orphans:3;
+        widows:3}
+
+    h2,h3{
+        page-break-after:avoid}
+}
+
+
+@media (min-width: 600px){  
+	body {
+		width:600px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+@media (max-width: 599px){
+	body {
+		width:98%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+/* MATH */
+.math{
+    text-align:center
+}
+
+
+/* TODO */
+.todo{
+    background-color: #f29f97;
+    padding: 0px 4px;
+    color: #fff;
+}
+
+
+/* FOOT NOTE ID */
+.timestamp {
+    font-family: "Helvetica", "Helvetica Neue", "Andale Mono WT","Andale Mono","Lucida Console","Lucida Sans Typewriter";
+    font-size: 90%;
+    color: navy;
+}
+
+
+/* TABLE */
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+    empty-cells:show;
+    margin-bottom:24px;
+    border-bottom:1px solid #e1e4e5;
+}
+
+td{
+    vertical-align:top}
+
+table td,table th{
+    font-size:90%;
+    margin:0;
+    overflow:visible;
+    padding:8px 16px;
+    background-color:white;
+    border:1px solid #e1e4e5;
+}
+
+table thead th{
+    font-weight:bold;
+    border-top:3px solid #e1e4e5;
+    border-bottom:1px solid #e1e4e5;
+}
+
+table caption{
+    color:#000;
+    font:italic 85%/1 arial,sans-serif;
+    padding:1em 0;
+}
+
+table tr:nth-child(2n-1) td{
+    background-color:#f3f6f6;
+}
+
+table tr:nth-child(2n) td{
+    background-color:white;
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title></title>
+    <description></description>
+    <link>/home/</link>
+    <atom:link href="/home/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 24 May 2017 01:42:55 -0400</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 01:42:55 -0400</lastBuildDate>
+    <generator>Jekyll v2.4.0</generator>
+    
+      <item>
+        <title>What I liked about CSE 300.</title>
+        <description>
+</description>
+        <pubDate>Tue, 25 Apr 2017 00:00:00 -0400</pubDate>
+        <link>/home/2017/04/25/CSE-300.html</link>
+        <guid isPermaLink="true">/home/2017/04/25/CSE-300.html</guid>
+        
+        
+      </item>
+    
+  </channel>
+</rss>

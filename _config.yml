@@ -1,6 +1,6 @@
 name: jon tow
 rouge: true
-baseurl: /home
+baseurl: "/home"
 
 highlighter: rouge
 markdown: kramdown
