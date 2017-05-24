@@ -136,12 +136,13 @@ h4 {
 #about a {
     padding:0px 5px 0px 5px;
     color: #28ABE3;
-    background-color: white;    
+
 }
 
 #projects {
     padding-top:40px;
     height:600px;
+    color: white;
     background-color: #DB3340;
 }
 #projects a {
