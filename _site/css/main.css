@@ -6,15 +6,20 @@
 
 @media screen and (max-width: 790px) {
     #about, #projects, #contact, #blog {
-	margin-left: 0px;
+
+	margin:0;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	width: 100%;	
     }
+    
     ul.nav-pills {
     	display:none;
+	width:0px;
     }
 }
 
 * {
-    margin: 0;
     padding: 0;
     line-height: 1.5;
     box-sizing: border-box;
@@ -40,7 +45,7 @@ body {
     position: relative;
 
     min-height: 100%;
-    max-width: 810px;
+/*    max-width: 810px; */
 
     padding: 3rem;
     
@@ -126,13 +131,13 @@ h4 {
 #about {
     padding-top:40px;
     height:600px;
-    color:  white;
-    background-color:#28ABE3;    
+    color:  black;
+    background-color:#EEEEEE;    
 }
 #about a {
     padding:0px 5px 0px 5px;
     color: #28ABE3;
-    background-color: white;    
+
 }
 
 #projects {
