@@ -118,25 +118,25 @@ h4 {
 /*-------- Section Settings -------*/
 
 #about {
-    padding-top:70px;
+    padding-top:40px;
     height:500px;
     color: white;
     background-color: #28ABE3;    
 }
 #projects {
-    padding-top:70px;
+    padding-top:40px;
     height:500px;
     color: white;
     background-color: #DB3340;
 }
 #contact {
-    padding-top:70px;
+    padding-top:40px;
     height:500px;
     color: white;
     background-color: #1FDA9A;
 }
 #blog {
-    padding-top:30px;
+    padding-top:40px;
     height:500px;
     color: white;
     background-color: #E8B71A;
