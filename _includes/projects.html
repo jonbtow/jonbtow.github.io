@@ -1,0 +1,44 @@
+<!-- PROJECTS SCREEN -->
+<div id="projects" class="container-fluid">
+    <h1>Projects</h1>
+
+    <!-- Projects Section 
+    <section>
+        <section-title>Projects</section-title>
+        <section-content>
+            <p>
+            </p>
+        </section-content>
+    </section>
+    -------------------->
+
+    <!-- Data Projects -->
+
+    <!-------------------->
+
+    <!-- Note Projects -->
+    <section class="post-preview-section">
+        <section-title>Notes</section-title>
+        <ol class="entry-previews">
+            {% assign projects = site.projects | sort: 'order' %}
+            {% for project in projects %}
+            <li>
+                <p class="post-preview">
+
+                    <a href="{{ project.url }}">
+              {{ project.title }}
+            </a>
+
+                    <br> {{project.introduction}}
+
+                    <a href="{{ project.url }}">
+              (read more)
+            </a>
+                </p>
+            </li>
+            {% endfor %}
+
+        </ol>
+    </section>
+    <!-------------------->
+</div> <!-- END OF PROJECTS SCREEN -->

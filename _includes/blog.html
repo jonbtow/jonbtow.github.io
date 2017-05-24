@@ -1,0 +1,30 @@
+<!--  BLOG SCREEN -->
+<div id="blog" class="container-fluid">
+    <h1> Blog </h1>
+    <!-- Blog Previews -->
+    <section class="post-preview-section">
+        <ol class="entry-previews">
+
+            {% for post in site.posts %}
+            <li>
+                <p class="post-preview">
+
+                    <a href="{{ post.url }}">
+              {{ post.title }}
+            </a>
+
+                    <br> {{ post.introduction }}
+
+                    <a href="{{ post.url }}">
+              (read more)
+            </a>
+
+                    <br> - {{ post.date | date: '%B %d, %Y' }}
+                </p>
+            </li>
+            {% endfor %}
+
+        </ol>
+    </section>
+    <!-------------------->
+</div> <!-- END OF BLOG SCREEN -->
