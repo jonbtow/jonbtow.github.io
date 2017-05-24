@@ -191,9 +191,9 @@ section-content:last-child {
 
 
 /*--------- Head Navigator ---------*/
-.myScrollspy {
+#myScrollspy {
     background-color: #fff;
-    padding-top: 
+    padding-top: 2%;
 }
 
 
