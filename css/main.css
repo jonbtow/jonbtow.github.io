@@ -8,9 +8,10 @@
     #about, #projects, #contact, #blog {
 	margin-right: 10px;
 	font-size: 18px;
-
-	width: 100%;
+	margin-top
+	width: 100%;	
     }
+    
     ul.nav-pills {
     	display:none;
 	width:0px;
@@ -18,7 +19,6 @@
 }
 
 * {
-    margin: 0;
     padding: 0;
     line-height: 1.5;
     box-sizing: border-box;
