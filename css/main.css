@@ -58,7 +58,7 @@ body {
 }
 
 ul.nav-pills {
-      top: 30px;
+      top: 40px;
       position: fixed;
 }
 
@@ -191,8 +191,6 @@ section-content:last-child {
 
 /*--------- Head Navigator ---------*/
 #myScrollspy {
-    background-color: #fff;
-    margin-top: 10%;
 }
 
 /*--- Link colors 
