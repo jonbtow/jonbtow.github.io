@@ -122,6 +122,13 @@ h4 {
     color: white;
     background-color: #28ABE3;    
 }
+
+#about a {
+    padding-top:40px;
+    height:600px;
+    color: #28ABE3;
+    background-color: white;    
+}
 #projects {
     padding-top:40px;
     height:600px;
@@ -134,7 +141,19 @@ h4 {
     color: white;
     background-color: #1FDA9A;
 }
+#contact a {
+    padding-top:40px;
+    height:600px;
+    color: white;
+    background-color: #1FDA9A;
+}
 #blog {
+    padding-top:40px;
+    height:600px;
+    color: white;
+    background-color: #E8B71A;
+}
+#blog a {
     padding-top:40px;
     height:600px;
     color: white;
@@ -147,6 +166,14 @@ h4 {
     color: black;
     background-color: white;
 }
+#footer a {
+    padding-top:20px;
+    padding-bottom:20px;
+    height:100px;
+    color: black;
+    background-color: white;
+}
+
 
 section {
     width: 100%;
