@@ -58,7 +58,7 @@ body {
 }
 
 ul.nav-pills {
-      top: 20px;
+      top: 30px;
       position: fixed;
 }
 
@@ -78,7 +78,7 @@ ol {
 
 div.col-sm-9 div {
     height: 500px;
-    font-size: 28px;
+    font-size: 24px;
 }
 
 /*-------- Header settings -------*/
@@ -189,13 +189,11 @@ section-content:last-child {
     padding-bottom: .5em;
 }
 
-
 /*--------- Head Navigator ---------*/
 #myScrollspy {
     background-color: #fff;
     margin-top: 10%;
 }
-
 
 /*--- Link colors 
 #1FDA9A - lightgreen
@@ -217,28 +215,6 @@ a:hover {
     color:inherit;
 }
 
-.navbar-brand {
-    font-size: 28px;
-    font-weight: 500;
-    display: inline;
-}
-.navbar li.active a {
-    color: #28ABE3;
-    border-bottom: 2px solid #28ABE3;    
-}
-
-/* Nav bar active FX */
-#myNavbar a {
-    color: #616161;    
-}
-#myNavbar li.active a {
-    background-color: #FFFFFF;
-    color: #28ABE3;
-    border-bottom: 2px solid #28ABE3;    
-}
-#myNavbar a:hover {
-    color: #28ABE3;
-}
 
 top-section a {
     color: #616161;
