@@ -107,21 +107,25 @@ h4 {
 #about {
     padding-top:70px;
     height:500px;
+    color: white;
     background-color: #28ABE3;
 }
 #projects {
     padding-top:70px;
     height:500px;
+    color: white;
     background-color: #DB3340;
 }
 #contact {
     padding-top:70px;
     height:500px;
+    color: white;
     background-color: #1FDA9A;
 }
 #blog {
     padding-top:30px;
     height:500px;
+    color: white;
     background-color: #E8B71A;
 }
 
