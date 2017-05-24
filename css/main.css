@@ -273,3 +273,7 @@ a:visited {
     margin: auto;
     padding:15px;
 }
+
+li .name-header {
+    padding-left:10px;
+}
