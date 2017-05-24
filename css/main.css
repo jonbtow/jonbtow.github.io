@@ -5,39 +5,8 @@
 }
 
 @media screen and (max-width: 810px) {
-    #section1, #section2, #section3, #section41, #section42  {
+    #about, #projects, #contact, #blog {
         margin-left: 150px;
-    }
-}
-
-@media all and (max-width:650px) {
-    @media all and (max-width: 650px) {
-        html {
-            font-size: 16px;
-        }
-    }
-    @media all and (max-width:590.0px) {
-        html {
-            font-size: 15px;
-        }
-    }
-    @media all and (max-width:530.0px) {
-        html {
-            font-size: 13px;
-        }
-    }
-    body {
-        padding: 1rem;
-    }
-    section {
-        flex-direction: column;
-    }
-    section-title {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-    section-content li {
-        width: 100%;
     }
 }
 
