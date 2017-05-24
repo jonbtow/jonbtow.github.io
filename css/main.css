@@ -112,11 +112,11 @@ h4 {
 }
 
 /*-------- Section settings -------*/
-#section1 {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
-#section2 {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
-#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section4 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
-#section5 {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
+#section1 {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
+#section2 {padding-top:50px;height:500px;color: #fff; background-color: #ffffff;}
+#section3 {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
+#section4 {padding-top:50px;height:500px;color: #fff; background-color: #ffffff;}
+#section5 {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
 
 section {
     width: 100%;
