@@ -60,6 +60,7 @@ ul.nav-pills {
       position: fixed;
 }
 ul.nav-pills a:active {
+    color:white;
     background-color: #28ABE3;
 }
 ul.nav-pills>li.active>a {
