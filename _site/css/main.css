@@ -112,10 +112,29 @@ h4 {
 }
 
 /*-------- Section settings -------*/
-#about {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
-#projects {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
-#contact {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
-#blog {padding-top:50px;height:500px;color: #fff; background-color: #ab96ff;}
+#about {
+    height:500px;
+    color: #ab96ff;
+    background-color: white;
+}
+#projects {
+    padding-top:70px;
+    height:500px;
+    color: #28ABE3;
+    background-color: white;
+}
+#contact {
+    padding-top:70px;
+    height:500px;
+    color: #ab96ff;
+    background-color: white;
+}
+#blog {
+    padding-top:70px;
+    height:500px;
+    color: #28ABE3;
+    background-color: white;
+}
 
 section {
     width: 100%;
@@ -186,14 +205,13 @@ section-title {
     padding-top: .9em;
 }
 /*--------- Head Navigator ---------*/
-
-.navbar {
-    background-color: #FFFFFF;
-    border-style: none;
-    padding-left: none;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
 }
-
-
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 /*--- Link colors 
 #1FDA9A - lightgreen

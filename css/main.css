@@ -205,16 +205,13 @@ section-title {
     padding-top: .9em;
 }
 /*--------- Head Navigator ---------*/
-
-.navbar {
-    background-color: #FFFFFF;
-    border-style: none;
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
 }
-.navbar-fixed-top {
-    border-style: none;
+.navbar .navbar-collapse {
+    text-align: center;
 }
-
-
 
 /*--- Link colors 
 #1FDA9A - lightgreen
