@@ -210,11 +210,10 @@ section-title {
 .navbar {
     background-color: #FFFFFF;
     border-style: none;
-    padding-left: none;
 }
 .navbar-fixed-top {
     border-style: none;
-    padding-left: none;
+    padding-left: 40%;
 }
 
 
