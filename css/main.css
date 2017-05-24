@@ -8,6 +8,9 @@
     #about, #projects, #contact, #blog {
         margin-left: 100px;
     }
+    ul.nav-pills {
+	width: 0px;
+    }
 }
 
 * {
