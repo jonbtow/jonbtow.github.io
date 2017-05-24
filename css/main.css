@@ -212,9 +212,10 @@ section-title {
 }
 .navbar .navbar-collapse {
     text-align: center;
+    margin:auto;
 }
 .navbar-brand {
-    margin:auto;
+  
 }
 
 /*--- Link colors 
