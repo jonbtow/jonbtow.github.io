@@ -176,7 +176,7 @@ section-content:last-child {
 }
 
 section-title {
-    padding-top: .9em;
+    padding: 1em;
 }
 /*--------- Head Navigator ---------*/
 .navbar {
