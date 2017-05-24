@@ -217,9 +217,7 @@ section-title {
     text-align: center;
     margin:auto;
 }
-.navbar-brand {
 
-}
 
 /*--- Link colors 
 #1FDA9A - lightgreen
@@ -244,11 +242,9 @@ a:hover {
 .navbar-brand {
     font-size: 28px;
     font-weight: 500;
-    text-align: left;
     display: inline;
 }
 .navbar li.active a {
-    background-color: #FFFFFF;
     color: #28ABE3;
     border-bottom: 2px solid #28ABE3;    
 }
