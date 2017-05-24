@@ -55,11 +55,6 @@ body {
     flex: 1 0 auto;
 }
 
-.footer {
-    flex: none;
-    color: white;
-}
-
 ul.nav-pills {
       top: 40px;
       position: fixed;
@@ -146,6 +141,7 @@ h4 {
 }
 #footer {
     padding-top:40px;
+    padding-bottom:20px;
     height:100px;
     color: black;
     background-color: white;
