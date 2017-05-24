@@ -107,6 +107,29 @@ title: Home
 <!-- PROJECTS SCREEN Section -->
 <div id="section3" class="container-fluid">
   <h1>Projects</h1>
+  <section class="post-preview-section">
+    <section-title>Notes</section-title>
+    <ol class="entry-previews">
+      {% assign projects = site.projects | sort: 'order' %}
+      {% for project in projects %}
+      <li>
+        <p class="post-preview">
+
+          <a href="{{ project.url }}">
+	    {{ project.title }}
+	  </a>
+
+          <br> {{project.introduction}}
+
+          <a href="{{ project.url }}">
+	    (read more)
+	  </a>
+        </p>
+      </li>
+      {% endfor %}
+      
+    </ol>
+  </section>    
 </div> <!-- End of PROJECTS SECTION -->
 <!-------------------->
 
