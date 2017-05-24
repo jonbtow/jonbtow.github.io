@@ -7,7 +7,9 @@
 @media screen and (max-width: 790px) {
     #about, #projects, #contact, #blog {
 	margin-left: 0px;
-	width: 120%;
+	font-size: 18px;
+
+	width: 100%;
     }
     ul.nav-pills {
     	display:none;
