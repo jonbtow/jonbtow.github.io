@@ -126,8 +126,8 @@ h4 {
 #about {
     padding-top:40px;
     height:600px;
-    color: white;
-    background-color: #28ABE3;    
+    color: #28ABE3;
+    background-color: white;    
 }
 #about a {
     padding:0px 5px 0px 5px;
@@ -272,8 +272,4 @@ a:visited {
 .bio-pic {
     margin: auto;
     padding:15px;
-}
-
-li .name-header {
-    padding-left:10px;
 }
