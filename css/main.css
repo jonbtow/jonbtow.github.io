@@ -77,7 +77,7 @@ ol {
 }
 
 div.col-sm-9 div {
-    height: 500px;
+    height: 800px;
     font-size: 24px;
 }
 
@@ -214,15 +214,6 @@ a:hover {
 }
 
 
-top-section a {
-    color: #616161;
-}
-
-top-section a:hover {
-    /* if changed change entry-previews and ol color */
-    color: #28ABE3;
-}
-
 section a {
     font-weight: 600;
     color: #28ABE3;
@@ -240,10 +231,6 @@ a:visited {
     text-decoration: none;
     text-style: visited;
     
-}
-
-.footlinks {
-
 }
 
 .bio-pic {
