@@ -112,10 +112,30 @@ h4 {
 }
 
 /*-------- Section settings -------*/
-#about {padding-top:70px;height:500px;color: #ab96ff; background-color: white;}
-#projects {padding-top:70px;height:500px;color: #28ABE3; background-color: white;}
-#contact {padding-top:70px;height:500px;color: #ab96ff; background-color: white;}
-#blog {padding-top:70px;height:500px;color: #28ABE3; background-color: white;}
+#about {
+    padding-top:70px;
+    height:500px;
+    color: #ab96ff;
+    background-color: white;
+}
+#projects {
+    padding-top:70px;
+    height:500px;
+    color: #28ABE3;
+    background-color: white;
+}
+#contact {
+    padding-top:70px;
+    height:500px;
+    color: #ab96ff;
+    background-color: white;
+}
+#blog {
+    padding-top:70px;
+    height:500px;
+    color: #28ABE3;
+    background-color: white;
+}
 
 section {
     width: 100%;
@@ -189,6 +209,10 @@ section-title {
 
 .navbar {
     background-color: #FFFFFF;
+    border-style: none;
+    padding-left: none;
+}
+.navbar-fixed-top {
     border-style: none;
     padding-left: none;
 }
