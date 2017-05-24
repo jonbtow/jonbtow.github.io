@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 740px) {
     #about, #projects, #contact, #blog {
-
+	margin-left: auto;
     }
     ul.nav-pills {
     	display:none;
