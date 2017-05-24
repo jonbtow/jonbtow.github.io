@@ -103,29 +103,34 @@ h4 {
 }
 
 /*-------- Section settings -------*/
+
+/*--- Link colors 
+#1FDA9A - lightgreen
+#28ABE3 - blue
+#F7EAC8 - beige
+#E8B71A - gold tips
+#DB3340 - red
+---*/
+
 #about {
     padding-top:70px;
     height:500px;
-    color: #ab96ff;
-    background-color: white;
+    background-color: #28ABE3;
 }
 #projects {
     padding-top:70px;
     height:500px;
-    color: #28ABE3;
-    background-color: white;
+    background-color: #DB3340;
 }
 #contact {
     padding-top:70px;
     height:500px;
-    color: #ab96ff;
-    background-color: white;
+    background-color: #1FDA9A;
 }
 #blog {
     padding-top:70px;
     height:500px;
-    color: #28ABE3;
-    background-color: white;
+    background-color: #E8B71A;
 }
 
 section {
@@ -175,9 +180,7 @@ section-content:last-child {
     padding-bottom: .5em;
 }
 
-section-title {
-    padding: 1em;
-}
+
 /*--------- Head Navigator ---------*/
 .navbar {
     background-color: #fff;
