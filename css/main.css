@@ -60,10 +60,11 @@ body {
     flex: 1 0 auto;
 }
 
-ul.nav-pills {
-      top: 40px;
-      position: fixed;
-}
+/* ul.nav-pills { */
+/*       top: 40px; */
+/*       position: fixed; */
+/* } */
+
 ul.nav-pills a:active {
     color:white;
     background-color: #28ABE3;
