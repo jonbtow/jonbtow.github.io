@@ -205,7 +205,8 @@ section-content {
     flex-wrap: wrap;
     width: 100%;
     /* if changed, change topsection a color and entryprev in post-style */
-    color: white;
+
+    color: black;
     
     /* columns */
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
