@@ -34,12 +34,10 @@ body {
     max-width: 860px;
 
     margin:auto;
-    padding: 3rem;
-    padding-top: 1rem;
+    padding: 5rem;
     
     font-size: 1.2rem;
     font-family: "Avenir";
-    sans-serif;
     line-height: 28px;
     
     color: #212121;
@@ -81,29 +79,24 @@ h6 {
     display: inline;
     font-family: "Avenir", sans-serif;
 }
-
-
 h1 {
     font-size: 28px;
     font-weight: 500;
     text-align: left;
     display: inline;
 }
-
 h2 {
     color: #616161;
     display: inline;
     font-weight: lighter;
     font-size: 22px;
 }
-
 h3 {
     width: 80%;
     max-width: 600px;
     font-size: 20px;
     font-weight: lighter;
 }
-
 h4 {
     font-size: 120%;
     padding: 0px 20px 0px 0px;
@@ -143,24 +136,6 @@ section {
     align-items: baseline;
     padding-top: 0.5rem;
     border-top: 1px solid #ccc;
-}
-
-
-/*--------- Header Section ----------*/
-
-top-section {
-    column-count: 1;
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-width: 150px;
-    -webkit-column-width: 150px;
-    -moz-column-width: 150px;
-    width: 100%;
-    font-size: 105%;
-    margin: auto;
-    padding: 50px 0px 20px 0px;
 }
 
 
@@ -256,7 +231,6 @@ a:hover {
     color: #28ABE3;
     border-bottom: 2px solid #28ABE3;    
 }
-
 #myNavbar a:hover {
     color: #28ABE3;
 }
