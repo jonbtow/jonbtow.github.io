@@ -102,15 +102,7 @@ h4 {
     padding: 0px 20px 0px 0px;
 }
 
-/*-------- Section settings -------*/
-
-/*--- Link colors 
-#1FDA9A - lightgreen
-#28ABE3 - blue
-#F7EAC8 - beige
-#E8B71A - gold tips
-#DB3340 - red
----*/
+/*-------- Section Settings -------*/
 
 #about {
     padding-top:70px;
@@ -128,7 +120,7 @@ h4 {
     background-color: #1FDA9A;
 }
 #blog {
-    padding-top:70px;
+    padding-top:30px;
     height:500px;
     background-color: #E8B71A;
 }
