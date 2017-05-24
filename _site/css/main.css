@@ -126,8 +126,8 @@ h4 {
 #about {
     padding-top:40px;
     height:600px;
-    color: white;
-    background-color: #28ABE3;    
+    color:  white;
+    background-color:#28ABE3;    
 }
 #about a {
     padding:0px 5px 0px 5px;
@@ -151,11 +151,11 @@ h4 {
     padding-top: 40px;
     height: 600px;
     color: white;
-    background-color: #843E72;
+    background-color: #694465;
 }
 #contact a {
     padding:0px 5px 0px 5px;
-    color: #843E7;
+    color: #694465;
     background-color: #FFFFFF;
 }
 #blog {
@@ -205,7 +205,8 @@ section-content {
     flex-wrap: wrap;
     width: 100%;
     /* if changed, change topsection a color and entryprev in post-style */
-    color: white;
+
+    color: black;
     
     /* columns */
     -webkit-column-count: 3; /* Chrome, Safari, Opera */

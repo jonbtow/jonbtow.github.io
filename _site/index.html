@@ -18,6 +18,33 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
 
+    <!-- SMOOTH SCROLLING -->
+    <script>
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+        // Prevent default anchor click behavior
+        event.preventDefault();
+
+        var hash = this.hash;
+
+        // Using jQuery's animate() method to add smooth page scroll
+        // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+        $('html, body').animate(
+            {scrollTop: $(hash).offset().top},
+            800, function(){
+                 // Add hash (#) to URL when done scrolling (default click behavior)
+                 window.location.hash = hash;
+           }
+        );
+      } // End if
+      });
+      });
+    </script>
+
     <title>Jonathan Tow</title>
     
     </head>
@@ -29,10 +56,17 @@
 
 <nav class="col-sm-3" id="myScrollspy">
   <ul class="nav nav-pills nav-stacked">
+    <li class = "name-header"><h1> Jonathan<br>Tow</h1></li>
     <li><a href="#about">about</a></li>
     <li><a href="#projects">projects</a></li>
     <li><a href="#contact">contact</a></li>  
-    <li><a href="#blog">blog</a></li>        
+    <li><a href="#blog">blog</a></li>
+    <a href="https://twitter.com/jonbtow" class="icon">
+      <i class="fa fa-twitter fa-lg"></i>
+    </a>
+    <a href="https://github.com/jonbtow" class="icon">
+      <i class="fa fa-github fa-lg"></i>
+    </a>
   </ul>
 </nav>
 
