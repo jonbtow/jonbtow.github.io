@@ -3,10 +3,10 @@
   <channel>
     <title></title>
     <description></description>
-    <link>/home/</link>
-    <atom:link href="/home/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Wed, 24 May 2017 02:24:20 -0400</pubDate>
-    <lastBuildDate>Wed, 24 May 2017 02:24:20 -0400</lastBuildDate>
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 24 May 2017 13:44:52 -0400</pubDate>
+    <lastBuildDate>Wed, 24 May 2017 13:44:52 -0400</lastBuildDate>
     <generator>Jekyll v2.4.0</generator>
     
       <item>
@@ -14,8 +14,8 @@
         <description>
 </description>
         <pubDate>Tue, 25 Apr 2017 00:00:00 -0400</pubDate>
-        <link>/home/2017/04/25/CSE-300.html</link>
-        <guid isPermaLink="true">/home/2017/04/25/CSE-300.html</guid>
+        <link>/2017/04/25/CSE-300.html</link>
+        <guid isPermaLink="true">/2017/04/25/CSE-300.html</guid>
         
         
       </item>

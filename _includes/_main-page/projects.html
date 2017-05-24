@@ -20,7 +20,7 @@
     <section class="post-preview-section">
         <section-title>Notes</section-title>
         <ol class="entry-previews">
-            {% assign projects = site.projects | sort: 'order' %}
+            {% assign projects = site.projects %}
             {% for project in projects %}
             <li>
                 <p class="post-preview">

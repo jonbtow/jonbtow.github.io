@@ -1,16 +1,22 @@
-
-
 @media all {
     html {
         font-size: 16px;
     }
 }
 
+@media screen and (max-width: 790px) {
+    #about, #projects, #contact, #blog {
+	margin-left: 0px;
+    }
+    ul.nav-pills {
+    	display:none;
+    }
+}
 
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.5;
     box-sizing: border-box;
     color: inherit;
     text-decoration: inherit;
@@ -28,33 +34,37 @@ html, body {
 }
 
 body {
-    display: flex;
     min-height: 100%;
     flex-direction: column;
-    
-    min-height: 100%;
-    max-width: 860px;
 
-    margin:auto;
+    position: relative;
+
+    min-height: 100%;
+    max-width: 810px;
+
     padding: 3rem;
-    padding-top: 1rem;
     
-    font-size: 1.2rem;
+    font-size: 18px;
     font-family: "Avenir";
-    sans-serif;
-    line-height: 28px;
+    line-height: 24px;
     
-    color: #212121;
-    background-color: #FFFFFF;
+    color: #1a1b1c ;
 }
 
 .content {
     flex: 1 0 auto;
 }
 
-.footer {
-    flex: none;
-    color: white;
+ul.nav-pills {
+      top: 40px;
+      position: fixed;
+}
+ul.nav-pills a:active {
+    color:white;
+    background-color: #28ABE3;
+}
+ul.nav-pills>li.active>a, ul.nav-pills>li.active>a:hover  {
+    background-color: #28ABE3;
 }
 
 li {
@@ -71,6 +81,11 @@ ol {
     margin:auto
 }
 
+div.col-sm-9 div {
+    height: 800px;
+    font-size: 18px;
+    margin-bottom: 100px;
+}
 
 /*-------- Header settings -------*/
 
@@ -83,58 +98,85 @@ h6 {
     display: inline;
     font-family: "Avenir", sans-serif;
 }
-
-
 h1 {
     font-size: 28px;
     font-weight: 500;
     text-align: left;
     display: inline;
 }
-
 h2 {
     color: #616161;
     display: inline;
     font-weight: lighter;
     font-size: 22px;
 }
-
 h3 {
     width: 80%;
     max-width: 600px;
     font-size: 20px;
     font-weight: lighter;
 }
-
 h4 {
     font-size: 120%;
     padding: 0px 20px 0px 0px;
 }
 
-/*-------- Section settings -------*/
+/*-------- Section Settings -------*/
+
 #about {
-    height:500px;
-    color: #ab96ff;
-    background-color: white;
+    padding-top:40px;
+    height:600px;
+    color: white;
+    background-color: #28ABE3;    
 }
-#projects {
-    padding-top:70px;
-    height:500px;
+#about a {
+    padding:0px 5px 0px 5px;
     color: #28ABE3;
+    background-color: white;    
+}
+
+#projects {
+    padding-top:40px;
+    height:600px;
+    color: white;
+    background-color: #DB3340;
+}
+#projects a {
+    padding:0px 5px 0px 5px;
+    color: #DB3340;
     background-color: white;
 }
+
 #contact {
-    padding-top:70px;
-    height:500px;
-    color: #ab96ff;
-    background-color: white;
+    padding-top: 40px;
+    height: 600px;
+    color: white;
+    background-color: #843E72;
+}
+#contact a {
+    padding:0px 5px 0px 5px;
+    color: #843E7;
+    background-color: #FFFFFF;
 }
 #blog {
-    padding-top:70px;
-    height:500px;
-    color: #28ABE3;
+    padding-top:40px;
+    height:600px;
+    color: white;
+    background-color: #E8B71A;
+}
+#blog a {
+    padding:0px 5px 0px 5px;
+    color: #E8B71A;
     background-color: white;
 }
+#footer {
+    padding-top:20px;
+    padding-bottom:20px;
+    height:80px;
+    color: black;
+    background-color: white;
+}
+
 
 section {
     width: 100%;
@@ -144,24 +186,6 @@ section {
     align-items: baseline;
     padding-top: 0.5rem;
     border-top: 1px solid #ccc;
-}
-
-
-/*--------- Header Section ----------*/
-
-top-section {
-    column-count: 1;
-    -webkit-column-count: 1;
-    /* Chrome, Safari, Opera */
-    -moz-column-count: 1;
-    /* Firefox */
-    column-width: 150px;
-    -webkit-column-width: 150px;
-    -moz-column-width: 150px;
-    width: 100%;
-    font-size: 105%;
-    margin: auto;
-    padding: 50px 0px 20px 0px;
 }
 
 
@@ -181,7 +205,7 @@ section-content {
     flex-wrap: wrap;
     width: 100%;
     /* if changed, change topsection a color and entryprev in post-style */
-    color: #616161;
+    color: white;
     
     /* columns */
     -webkit-column-count: 3; /* Chrome, Safari, Opera */
@@ -201,16 +225,8 @@ section-content:last-child {
     padding-bottom: .5em;
 }
 
-section-title {
-    padding-top: .9em;
-}
 /*--------- Head Navigator ---------*/
-.navbar .navbar-nav {
-    display: inline-block;
-    float: none;
-}
-.navbar .navbar-collapse {
-    text-align: center;
+#myScrollspy {
 }
 
 /*--- Link colors 
@@ -233,41 +249,10 @@ a:hover {
     color:inherit;
 }
 
-.navbar-brand {
-    font-size: 28px;
-    font-weight: 500;
-    text-align: left;
-    display: inline;
-}
-
-
-/* Nav bar active FX */
-#myNavbar a {
-    color: #616161;    
-}
-#myNavbar li.active a {
-    background-color: #FFFFFF;
-    color: #28ABE3;
-    border-bottom: 2px solid #28ABE3;
-    
-}
-
-#myNavbar a:hover {
-    color: #28ABE3;
-}
-
-top-section a {
-    color: #616161;
-}
-
-top-section a:hover {
-    /* if changed change entry-previews and ol color */
-    color: #28ABE3;
-}
 
 section a {
     font-weight: 600;
-    color: #28ABE3;
+    color: #F7EAC8;
 }
 
 section a:hover {
@@ -284,41 +269,7 @@ a:visited {
     
 }
 
-.footlinks {
-
-}
-
 .bio-pic {
     margin: auto;
     padding:15px;
-}
-@media all and (max-width:650px) {
-    @media all and (max-width: 650px) {
-        html {
-            font-size: 16px;
-        }
-    }
-    @media all and (max-width:590.0px) {
-        html {
-            font-size: 15px;
-        }
-    }
-    @media all and (max-width:530.0px) {
-        html {
-            font-size: 13px;
-        }
-    }
-    body {
-        padding: 1rem;
-    }
-    section {
-        flex-direction: column;
-    }
-    section-title {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-    section-content li {
-        width: 100%;
-    }
 }
