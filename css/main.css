@@ -20,9 +20,7 @@
 }
 
 doc {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
+
     border: 0px solid blue;
 }
 
@@ -32,7 +30,6 @@ html, body {
 
 body {
     min-height: 100%;
-    flex-direction: column;
 
     position: relative;
 
@@ -48,14 +45,6 @@ body {
     color: #1a1b1c ;
 }
 
-.content {
-    flex: 1 0 auto;
-}
-
-.footer {
-    flex: none;
-    color: white;
-}
 
 ul.nav-pills {
       top: 38px;
