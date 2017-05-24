@@ -206,6 +206,10 @@ section-title {
     padding-top: .9em;
 }
 /*--------- Head Navigator ---------*/
+.navbar {
+    background-color: #fff;
+}
+
 .navbar .navbar-nav {
     display: inline-block;
     float: none;
@@ -216,7 +220,7 @@ section-title {
     margin:auto;
 }
 .navbar-brand {
-  
+
 }
 
 /*--- Link colors 
