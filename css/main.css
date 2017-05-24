@@ -62,6 +62,10 @@ ul.nav-pills {
 ul.nav-pills a:active {
     background-color: #28ABE3;
 }
+ul.nav-pills>li.active>a {
+    background-color: #28ABE3;
+}
+
 li {
     list-style-type: none;
 }
