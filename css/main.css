@@ -59,7 +59,7 @@ ul.nav-pills {
       top: 40px;
       position: fixed;
 }
-ul.nav-pills a:active {
+ul.nav-pills a:link {
     background-color: #DB3340;
 }
 li {
