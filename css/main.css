@@ -4,6 +4,42 @@
     }
 }
 
+@media screen and (max-width: 810px) {
+    #section1, #section2, #section3, #section41, #section42  {
+        margin-left: 150px;
+    }
+}
+
+@media all and (max-width:650px) {
+    @media all and (max-width: 650px) {
+        html {
+            font-size: 16px;
+        }
+    }
+    @media all and (max-width:590.0px) {
+        html {
+            font-size: 15px;
+        }
+    }
+    @media all and (max-width:530.0px) {
+        html {
+            font-size: 13px;
+        }
+    }
+    body {
+        padding: 1rem;
+    }
+    section {
+        flex-direction: column;
+    }
+    section-title {
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+    section-content li {
+        width: 100%;
+    }
+}
 
 * {
     margin: 0;
@@ -53,6 +89,11 @@ body {
     color: white;
 }
 
+ul.nav-pills {
+      top: 20px;
+      position: fixed;
+}
+
 li {
     list-style-type: none;
 }
@@ -67,7 +108,10 @@ ol {
     margin:auto
 }
 
-
+div.col-sm-9 div {
+    height: 250px;
+    font-size: 28px;
+}
 /*-------- Header settings -------*/
 
 h1,
@@ -108,7 +152,7 @@ h4 {
     padding-top:70px;
     height:500px;
     color: white;
-    background-color: #28ABE3;
+    background-color: #28ABE3;    
 }
 #projects {
     padding-top:70px;
@@ -269,34 +313,4 @@ a:visited {
 .bio-pic {
     margin: auto;
     padding:15px;
-}
-@media all and (max-width:650px) {
-    @media all and (max-width: 650px) {
-        html {
-            font-size: 16px;
-        }
-    }
-    @media all and (max-width:590.0px) {
-        html {
-            font-size: 15px;
-        }
-    }
-    @media all and (max-width:530.0px) {
-        html {
-            font-size: 13px;
-        }
-    }
-    body {
-        padding: 1rem;
-    }
-    section {
-        flex-direction: column;
-    }
-    section-title {
-        width: 100%;
-        margin-bottom: 1rem;
-    }
-    section-content li {
-        width: 100%;
-    }
 }
