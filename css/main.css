@@ -59,8 +59,8 @@ ul.nav-pills {
       top: 40px;
       position: fixed;
 }
-ul.nav-pills a:link {
-    background-color: #DB3340;
+ul.nav-pills a:active {
+    background-color: #28ABE3;
 }
 li {
     list-style-type: none;
