@@ -113,6 +113,7 @@ h4 {
 
 /*-------- Section settings -------*/
 #about {
+    padding-top:70px;
     height:500px;
     color: #ab96ff;
     background-color: white;
