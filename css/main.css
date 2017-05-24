@@ -13,7 +13,7 @@
 * {
     margin: 0;
     padding: 0;
-    line-height: 1.6;
+    line-height: 1.5;
     box-sizing: border-box;
     color: inherit;
     text-decoration: inherit;
@@ -41,9 +41,9 @@ body {
 
     padding: 3rem;
     
-    font-size: 1.2rem;
+    font-size: 18px;
     font-family: "Avenir";
-    line-height: 28px;
+    line-height: 24px;
     
     color: #212121;
 }
