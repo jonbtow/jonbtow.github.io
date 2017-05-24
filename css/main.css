@@ -6,7 +6,7 @@
 
 @media screen and (max-width: 790px) {
     #about, #projects, #contact, #blog {
-	margin-left: 0pxo;
+	margin-left: 0px;
     }
     ul.nav-pills {
     	display:none;
@@ -140,7 +140,7 @@ h4 {
     background-color: #E8B71A;
 }
 #footer {
-    padding-top:40px;
+    padding-top:20px;
     padding-bottom:20px;
     height:100px;
     color: black;
