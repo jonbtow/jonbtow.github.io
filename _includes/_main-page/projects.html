@@ -1,44 +1,50 @@
-<!-- PROJECTS SCREEN -->
-<div id="projects" class="container-fluid">
-    <h1>Projects</h1>
+<!-- PROJECTS BLOCK -->
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
 
+  <h2 class="w3-text-grey w3-padding-16">
+    <i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
+    Projects
+  </h2>
+
+  <div class="w3-container">
+    
     <!-- Projects Section 
-    <section>
-        <section-title>Projects</section-title>
-        <section-content>
-            <p>
-            </p>
-        </section-content>
-    </section>
-    -------------------->
+	 <section>
+           <section-title>Projects</section-title>
+           <section-content>
+             <p>
+             </p>
+           </section-content>
+	 </section>
+    -->
 
     <!-- Data Projects -->
 
-    <!-------------------->
-
     <!-- Note Projects -->
     <section class="post-preview-section">
-        <section-title>Notes</section-title>
-        <ol class="entry-previews">
-            {% assign projects = site.projects %}
-            {% for project in projects %}
-            <li>
-                <p class="post-preview">
+      <section-title>Notes</section-title>
+      <ol class="entry-previews">
+        {% assign projects = site.projects %}
+        {% for project in projects %}
+        <li>
+          <p class="post-preview">
 
-                    <a href="{{ project.url }}">
+            <a href="{{ project.url }}">
               {{ project.title }}
             </a>
 
-                    <br> {{project.introduction}}
+            <br> {{project.introduction}}
 
-                    <a href="{{ project.url }}">
+            <a href="{{ project.url }}">
               (read more)
             </a>
-                </p>
-            </li>
-            {% endfor %}
+          </p>
+        </li>
+        {% endfor %}
 
-        </ol>
+      </ol>
     </section>
     <!-------------------->
-</div> <!-- END OF PROJECTS SCREEN -->
+
+  </div> <!-- End of Container -->
+</div> <!-- END OF PROJECTS BLOCK -->
