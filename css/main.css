@@ -84,7 +84,7 @@ ol {
 .w3-row-padding  {
     /* center rows */
     margin: 0 auto;
-    max-width:660;
+    max-width:660px;
 }
 
 /*-------- Header settings -------*/
