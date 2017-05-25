@@ -224,10 +224,9 @@ section-content:last-child {
 #myScrollspy {
 }
 
-.navbar {
-
+.navbar-default .navbar-toggle {
+    background-color: black;
 }
-
 /*--- Link colors 
 #1FDA9A - lightgreen
 #28ABE3 - blue
