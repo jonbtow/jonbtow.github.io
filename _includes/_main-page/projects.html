@@ -29,38 +29,46 @@
   </div>
   <!-- End of TOP NAV/TITLE -->
 
-  
+  <hr>
+
   <!-- CONTENT -->
   <div class="w3-container">   
-
-    <hr>
     
-    <!-- Note Projects -->
-    <div class="w3-row"> 
-      <section-title>Notes</section-title>
-      <ol class="entry-previews">
-        {% assign projects = site.projects %}
-        {% for project in projects %}
-        <li>
-          <p class="post-preview">
+    <!-- Note Projects Row -->
+    <div class="w3-row">
+      
+      <!-- row title -->
+      <div class="w3-col w3-container" style="width:30%">
+	Notes
+      </div>
+      <!--------------->
 
-            <a href="{{ project.url }}">
-              {{ project.title }}
-            </a>
+      <!-- row content -->
+      <div class="w3-col w3-container" style="width:70%">
+	<ol class="entry-previews">
+          {% assign projects = site.projects %}
+          {% for project in projects %}
+          <li>
+            <p class="post-preview">
 
-            <br> {{project.introduction}}
+              <a href="{{ project.url }}">
+		{{ project.title }}
+              </a>
 
-            <a href="{{ project.url }}">
-              (read more)
-            </a>
-          </p>
-        </li>
-        {% endfor %}
+              <br> {{project.introduction}}
 
-      </ol>
+              <a href="{{ project.url }}">
+		(read more)
+              </a>
+            </p>
+          </li>
+          {% endfor %}
+	</ol>
+      </div>
+      <!--------------->
+
     </div>
-    <!-- End of Note Projects -->
-
+    <!-- End of Note Projects Row -->
     
   </div>
   <!-- End of CONTENT -->
