@@ -215,12 +215,12 @@ section-content:last-child {
 }
 
 /*--------- Head Navigator ---------*/
-#myScrollspy {
-}
 
 .block-nav {
     padding-left:300px;
+    margin-top:-10px;
 }
+
 .navbar {
     margin:0 auto;
     padding: 0px 0% 0% 170px;
