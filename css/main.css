@@ -107,7 +107,6 @@ h4 {
 #about a {
     padding:0px 5px 0px 5px;
     color: #28ABE3;
-
 }
 
 #projects {
@@ -194,6 +193,7 @@ section-content:last-child {
 }
 
 .block-nav {
+    display:inline;
     padding-left:300px;
 }
 
