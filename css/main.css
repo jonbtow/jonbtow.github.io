@@ -143,29 +143,21 @@ h4 {
 
 #projects {
     padding-top:40px;
-    height:600px;
-
 
 }
 #projects a {
     padding:0px 5px 0px 5px;
-
-
 }
 
 #contact {
     padding-top: 40px;
-    height: 600px;
-
 }
 #contact a {
     padding:0px 5px 0px 5px;
-
 }
 
 #blog {
     padding-top:40px;
-    height:600px;
     color: white;
     background-color: #E8B71A;
 }
