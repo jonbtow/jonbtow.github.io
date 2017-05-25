@@ -44,7 +44,6 @@ body {
 
     position: relative;
 
-    min-height: 100%;
 /*    max-width: 810px; */
 
     padding: 3rem;
@@ -225,8 +224,9 @@ section-content:last-child {
 }
 
 .navbar {
-    padding: 2% 0% 0% 30%;
-
+    margin:0 auto;
+    padding: 10px 0% 0% 170px;
+    max-width:680px;
 }
 .navbar-default .navbar-toggle {
     background-color: black;
