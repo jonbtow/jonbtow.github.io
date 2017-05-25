@@ -142,7 +142,7 @@ h4 {
 }
 
 #projects {
-    padding-top:40px;
+    padding-top:30px;
 
 }
 #projects a {
@@ -150,14 +150,14 @@ h4 {
 }
 
 #contact {
-    padding-top: 40px;
+    padding-top:30px;
 }
 #contact a {
     padding:0px 5px 0px 5px;
 }
 
 #blog {
-    padding-top:40px;
+    padding-top:30px;
     color: white;
     background-color: #E8B71A;
 }
