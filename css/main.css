@@ -119,14 +119,6 @@ h4 {
     padding:0px 5px 0px 5px;
 }
 
-#contact {
-    padding-top:20px;
-    height:600px;
-}
-#contact a {
-    padding:0px 5px 0px 5px;
-}
-
 #blog {
     padding-top:20px;
     height:600px;
@@ -201,9 +193,6 @@ section-content:last-child {
     text-align:center;
     padding-top:20px;
 }
-.navbar-default .navbar-toggle {
-    background-color: black;
-}
 
 .block-nav {
     padding-left:300px;
@@ -233,7 +222,7 @@ a:hover {
 
 section a {
     font-weight: 600;
-
+    color: #F7EAC8;
 }
 
 section a:hover {
