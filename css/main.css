@@ -224,9 +224,11 @@ section-content:last-child {
 #myScrollspy {
 }
 
+.navbar {
+    padding-left: 20%;
+}
 .navbar-default .navbar-toggle {
     background-color: black;
-    padding-left: 20%;
 }
 /*--- Link colors 
 #1FDA9A - lightgreen
