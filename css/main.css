@@ -156,14 +156,13 @@ h4 {
 #contact {
     padding-top: 40px;
     height: 600px;
-    color: white;
-    background-color: #694465;
+
 }
 #contact a {
     padding:0px 5px 0px 5px;
-    color: #694465;
-    background-color: #FFFFFF;
+
 }
+
 #blog {
     padding-top:40px;
     height:600px;
@@ -172,9 +171,8 @@ h4 {
 }
 #blog a {
     padding:0px 5px 0px 5px;
-    color: #E8B71A;
-    background-color: white;
 }
+
 #footer {
     padding-top:20px;
     padding-bottom:20px;
