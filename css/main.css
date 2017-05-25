@@ -4,20 +4,20 @@
     }
 }
 
-/* @media screen and (max-width: 790px) { */
-/*     #about, #projects, #contact, #blog { */
+@media screen and (max-width: 790px) {
+    #about, #projects, #contact, #blog {
 
-/* 	margin:0; */
-/* 	font-size: 18px; */
-/* 	padding: 0px 0px 0px 5px; */
-/* 	width: 100%;	 */
-/*     } */
+	margin:0;
+	font-size: 18px;
+	padding: 0px 0px 0px 5px;
+	width: 100%;
+    }
     
-/*     ul.nav-pills { */
-/*     	display:none; */
-/* 	width:0px; */
-/*     } */
-/* } */
+    .block-nav {
+    	display:none;
+	width:0px;
+    }
+}
 
 * {
     padding: 0;
