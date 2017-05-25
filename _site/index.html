@@ -46,7 +46,10 @@
     
   </head>
 
-  <body class="w3-light-grey">
+  <body class="w3-light-grey"
+	data-spy="scroll"
+	data-target="#myScrollspy"
+	data-offset="20">
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
      <!-- The Grid -->
@@ -57,33 +60,33 @@
 <!-- Left Column -->
 <div class="w3-third">
 
-  <div class="w3-display-container">
-    <div class="w3-display-bottomleft w3-container w3-text-black">
-      <h1>Jonathan Tow</h1>
-    </div>
-  </div>
+  <div class="w3-white w3-text-grey w3-card-4">
 
-  <div class="w3-container">   
-    <nav class="col-sm-3" id="myScrollspy">
-      <ul class="nav nav-pills nav-stacked">
-	<li><a href="#about">about</a></li>
-	<li><a href="#projects">projects</a></li>
-	<li><a href="#contact">contact</a></li>  
-	<li><a href="#blog">blog</a></li>
-	<li>
-	  <a href="https://github.com/jonbtow" class="icon">
-	    <i class="fa fa-github fa-lg"></i>
-	  </a>
-	  <a href="https://twitter.xcom/jonbtow" class="icon">
-	    <i class="fa fa-twitter fa-lg"></i>
-	  </a>
-	</li>
-      </ul>
-    </nav>
-  </div>
-  
-</div>
-<!-- End Left Column -->
+    <div class="name-header w3-display-container">      
+	<h1>Jonathan Tow</h1>
+    </div>
+
+    <div class="w3-container">   
+      <nav class="col-sm-3" id="myScrollspy">
+	<ul class="nav nav-pills nav-stacked">
+	  <li><a href="#about">about</a></li>
+	  <li><a href="#projects">projects</a></li>
+	  <li><a href="#contact">contact</a></li>  
+	  <li><a href="#blog">blog</a></li>
+	  <li>
+	    <a href="https://github.com/jonbtow" class="icon">
+	      <i class="fa fa-github fa-lg"></i>
+	    </a>
+	    <a href="https://twitter.xcom/jonbtow" class="icon">
+	      <i class="fa fa-twitter fa-lg"></i>
+	    </a>
+	  </li>
+	</ul>
+      </nav>
+    </div> <!-- end of Container -->
+  </div> <!-- End of Nav Card -->
+</div>   <!-- End Left Column -->
+
 
 
 <!-- Right Column -->
@@ -91,13 +94,16 @@
 
 
     <!--  ABOUT BLOCK -->
-<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom"
+     id="about"
+     >
+  
   <h2 class="w3-text-grey w3-padding-16">
     <i class="fa fa-male fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
     About
   </h2>
+  
   <div class="w3-container">
-
     <!-- Bio Section -->
     <section>         
       <!-- column 1 -->    
@@ -126,102 +132,103 @@
       </section-content>
     </section>
     <!-------------------->
-
-    <!-- Social Media Section -->
-    <section>
-      <section-title>Social</section-title>
-      <section-content>
-        <ul>
-          <li>
-            <a href="https://twitter.com/jonbtow">
-              Twitter
-            </a>
-          </li>
-
-          <li>
-            <a href="https://github.com/jonbtow?tab=repositories">
-              Github
-            </a>
-	  </li>
-        </ul>
-      </section-content>
-    </section>
-    <!-------------------->
+   
   </div>
 </div> <!--  END OF ABOUT BLOCK -->
 
-<!-- PROJECTS SCREEN -->
-<div id="projects" class="container-fluid">
-    <h1>Projects</h1>
+<!-- PROJECTS BLOCK -->
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom"
+     id = "projects"
+     >
+  <h2 class="w3-text-grey w3-padding-16">
+    <i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
+    Projects
+  </h2>
 
+  <div class="w3-container">
+    
     <!-- Projects Section 
-    <section>
-        <section-title>Projects</section-title>
-        <section-content>
-            <p>
-            </p>
-        </section-content>
-    </section>
-    -------------------->
+	 <section>
+           <section-title>Projects</section-title>
+           <section-content>
+             <p>
+             </p>
+           </section-content>
+	 </section>
+    -->
 
     <!-- Data Projects -->
 
-    <!-------------------->
-
     <!-- Note Projects -->
     <section class="post-preview-section">
-        <section-title>Notes</section-title>
-        <ol class="entry-previews">
-            
-            
+      <section-title>Notes</section-title>
+      <ol class="entry-previews">
+        
+        
 
-        </ol>
+      </ol>
     </section>
     <!-------------------->
-</div> <!-- END OF PROJECTS SCREEN -->
 
-<!--  CONTACT SCREEN -->
-<div id="contact" class="container-fluid">
-    <h1>Contact</h1>
+  </div> <!-- End of Container -->
+</div> <!-- END OF PROJECTS BLOCK -->
+
+<!-- <!-- CONTACT BLOCK -->
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom"
+     id="contact"
+     >
+
+  <h2 class="w3-text-grey w3-padding-16">
+    <i class="fa fa-ellipsis-h fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
+    Contact
+  </h2>
+
+  <div class="w3-container">
     <!-- Email Section -->
     <section>
-        <section-title>Email</section-title>
-        <section-content>
-          <ul>
-            <li>
-                <a href="mailto:jonathantow8@gmail.com">
-                    <em>
-              jonathantow8 at gmail dot com
+      <section-title>Email</section-title>
+      <section-content>
+        <ul>
+          <li>
+            <a href="mailto:jonathantow8@gmail.com">
+              <em>
+		jonathantow8 at gmail dot com
               </em>
-                </a>
+            </a>
 
-            </li>
-          </ul>
-        </section-content>
+          </li>
+        </ul>
+      </section-content>
     </section>
     <!-------------------->
 
     <!-- Phone Section -->
     <section>
-        <section-title>Phone</section-title>
-        <section-content>
-          <ul>
-              <!-- Column 1 -->
-              <li>    
-                (914) 886-8003
-              </li>
-          </ul>
-        </section-content>
+      <section-title>Phone</section-title>
+      <section-content>
+        <ul>
+          <!-- Column 1 -->
+          <li>    
+            (914) 886-8003
+          </li>
+        </ul>
+      </section-content>
     </section>
     <!-------------------->
-</div> <!-- END OF CONTACT SCREEN -->
 
-<!--  BLOG BLOCK -->
-<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+  </div> <!-- End of Container -->
+</div>   <!-- END OF CONTACT BLOCK -->
+ -->
+<!-- BLOG BLOCK -->
+<div class="blog w3-container w3-card-2 w3-white w3-margin-bottom"
+     id="blog"
+     >
+
   <h2 class="w3-text-grey w3-padding-16">
     <i class="fa fa-bookmark fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
     Blog
   </h2>
+  
   <div class="w3-container">
     <!-- Blog Previews -->
     <section class="post-preview-section">
@@ -251,7 +258,7 @@
     <!-------------------->
     
   </div> <!-- End of Container -->
-</div>  <!-- END OF BLOG SCREEN -->
+</div>  <!-- END OF BLOG BLOCK -->
 
 
 
@@ -266,7 +273,8 @@
 </div> <!-- End Right Column area -->
 </div> <!-- End Grid area    -->
 </div> <!-- End Content area -->
-</body>
+
+</body> 
 
 </html>
 
