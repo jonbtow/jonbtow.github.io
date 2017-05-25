@@ -229,7 +229,7 @@ section-content:last-child {
     background-color: black;
 }
 .top-nav {
-    padding-bottom: 100px;
+    max-height: 50px;
 }
 /*--- Link colors 
 #1FDA9A - lightgreen
