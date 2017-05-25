@@ -84,7 +84,7 @@ ol {
 .w3-row-padding  {
     /* center rows */
     margin: 0 auto;
-    max-width:700;
+    max-width:660;
 }
 
 /*-------- Header settings -------*/
@@ -136,7 +136,6 @@ h4 {
 }
 
 #projects {
-    margin: 0 auto;
 
     padding-top:20px;
     height:600px;
@@ -155,7 +154,6 @@ h4 {
 }
 
 #blog {
-    margin: 0 auto;
     padding-top:20px;
     height:600px;
     color: white;
