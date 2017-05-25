@@ -221,12 +221,11 @@ section-content:last-child {
     padding-left:300px;
 }
 
-.navbar {
+.nav-row {
     margin:0 auto;
     text-align:center;
     padding-top:20px;
     background-color : transparent;
-
 }
 .navbar-default .navbar-toggle {
     background-color: black;
