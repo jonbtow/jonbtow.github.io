@@ -223,6 +223,10 @@ section-content:last-child {
 #myScrollspy {
 }
 
+.block-nav {
+    margin:0 auto;
+    padding-left:300px;
+}
 .navbar {
     margin:0 auto;
     padding: 10px 0% 0% 170px;
