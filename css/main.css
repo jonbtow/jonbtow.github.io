@@ -93,7 +93,7 @@ h6 {
     display: inline;
     font-family: "Avenir", sans-serif;
 }
-.navbar h1 {
+.navbar{
     padding-top: 40px;
 }
 h1 {
