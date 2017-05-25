@@ -224,6 +224,11 @@ section-content:last-child {
 #myScrollspy {
 }
 
+.navbar {
+    background-color: white;
+    padding-left: 60%;
+}
+
 /*--- Link colors 
 #1FDA9A - lightgreen
 #28ABE3 - blue
