@@ -227,9 +227,7 @@ section-content:last-child {
 .navbar-default .navbar-toggle {
     background-color: black;
 }
-.top-nav {
-    max-height: 50px;
-}
+
 /*--- Link colors 
 #1FDA9A - lightgreen
 #28ABE3 - blue
