@@ -87,6 +87,11 @@ ol {
     margin:auto
 }
 
+.w3-row-padding  {
+    /* center rows */
+    margin: 0 auto;
+    max-width:700;
+}
 div.col-sm-9 div {
     height: 800px;
     font-size: 18px;
