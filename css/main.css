@@ -4,20 +4,20 @@
     }
 }
 
-@media screen and (max-width: 790px) {
-    #about, #projects, #contact, #blog {
+/* @media screen and (max-width: 790px) { */
+/*     #about, #projects, #contact, #blog { */
 
-	margin:0;
-	font-size: 18px;
-	padding: 0px 0px 0px 5px;
-	width: 100%;	
-    }
+/* 	margin:0; */
+/* 	font-size: 18px; */
+/* 	padding: 0px 0px 0px 5px; */
+/* 	width: 100%;	 */
+/*     } */
     
-    ul.nav-pills {
-    	display:none;
-	width:0px;
-    }
-}
+/*     ul.nav-pills { */
+/*     	display:none; */
+/* 	width:0px; */
+/*     } */
+/* } */
 
 * {
     padding: 0;
@@ -144,13 +144,13 @@ h4 {
 #projects {
     padding-top:40px;
     height:600px;
-    color: white;
-    background-color: #DB3340;
+
+
 }
 #projects a {
     padding:0px 5px 0px 5px;
-    color: #DB3340;
-    background-color: white;
+
+
 }
 
 #contact {
