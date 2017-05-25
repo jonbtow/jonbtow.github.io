@@ -215,12 +215,11 @@ section-content:last-child {
 }
 
 /*--------- Head Navigator ---------*/
-#myScrollspy {
-}
 
 .block-nav {
     padding-left:300px;
 }
+
 .navbar {
     margin:0 auto;
     padding: 0px 0% 0% 170px;
@@ -228,9 +227,7 @@ section-content:last-child {
 .navbar-default .navbar-toggle {
     background-color: black;
 }
-.navbar-na {
-    padding-top:0px;
-}
+
 /*--- Link colors 
 #1FDA9A - lightgreen
 #28ABE3 - blue
