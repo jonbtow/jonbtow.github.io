@@ -228,8 +228,8 @@ section-content:last-child {
 .navbar-default .navbar-toggle {
     background-color: black;
 }
-.navbar-na {
-    padding-top:0px;
+.top-nav {
+    margin-bottom: 100px;
 }
 /*--- Link colors 
 #1FDA9A - lightgreen
