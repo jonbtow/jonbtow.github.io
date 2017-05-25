@@ -1,30 +1,36 @@
-<!--  BLOG SCREEN -->
-<div id="blog" class="container-fluid">
-    <h1> Blog </h1>
+<!--  BLOG BLOCK -->
+<div class="w3-container w3-card-2 w3-white w3-margin-bottom">
+  <h2 class="w3-text-grey w3-padding-16">
+    <i class="fa fa-bookmark fa-fw w3-margin-right w3-xxlarge w3-text-teal" aria-hidden="true"></i>
+    Blog
+  </h2>
+  <div class="w3-container">
     <!-- Blog Previews -->
     <section class="post-preview-section">
-        <ol class="entry-previews">
+      <ol class="entry-previews">
 
-            {% for post in site.posts %}
-            <li>
-                <p class="post-preview">
+        {% for post in site.posts %}
+        <li>
+          <p class="post-preview">
 
-                    <a href="{{ post.url }}">
+            <a href="{{ post.url }}">
               {{ post.title }}
             </a>
 
-                    <br> {{ post.introduction }}
+            <br> {{ post.introduction }}
 
-                    <a href="{{ post.url }}">
+            <a href="{{ post.url }}">
               (read more)
             </a>
 
-                    <br> - {{ post.date | date: '%B %d, %Y' }}
-                </p>
-            </li>
-            {% endfor %}
+            <br> - {{ post.date | date: '%B %d, %Y' }}
+          </p>
+        </li>
+        {% endfor %}
 
-        </ol>
+      </ol>
     </section>
     <!-------------------->
-</div> <!-- END OF BLOG SCREEN -->
+    
+  </div> <!-- End of Container -->
+</div>  <!-- END OF BLOG SCREEN -->
