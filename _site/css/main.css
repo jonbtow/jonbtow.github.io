@@ -228,8 +228,8 @@ section-content:last-child {
     padding-left:300px;
 }
 .navbar {
-    margin:0 auto;
-    padding: 10px 0% 0% 170px;
+    margin:0px 0px 100px 0px;
+    padding: 0px 0% 0% 170px;
 }
 .navbar-default .navbar-toggle {
     background-color: black;
