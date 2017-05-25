@@ -217,11 +217,7 @@ section-content:last-child {
 
 /*--------- Head Navigator ---------*/
 
-.block-nav {
-    padding-left:300px;
-}
-
-.nav-row {
+.navbar {
     margin:0 auto;
     text-align:center;
     padding-top:20px;
@@ -229,6 +225,11 @@ section-content:last-child {
 .navbar-default .navbar-toggle {
     background-color: black;
 }
+
+.block-nav {
+    padding-left:300px;
+}
+
 
 /*--- Link colors 
 #1FDA9A - lightgreen
