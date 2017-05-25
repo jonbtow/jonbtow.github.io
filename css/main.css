@@ -223,7 +223,8 @@ section-content:last-child {
 
 .navbar {
     margin:0 auto;
-    padding: 40px 0% 0% 170px;
+    text-align:center;
+    padding: 0px 0% 0% 170px;
 }
 .navbar-default .navbar-toggle {
     background-color: black;
