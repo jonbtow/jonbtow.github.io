@@ -35,32 +35,39 @@
   <div class="w3-container">
     
     <!-- Blog Row -->
-    <div class="w3-row"> 
-
-      <ol class="entry-previews">
-
-        {% for post in site.posts %}
-        <li>
-          <p class="post-preview">
-
-            <a href="{{ post.url }}">
-              {{ post.title }}
-            </a>
-
-            <br> {{ post.introduction }}
-
-            <a href="{{ post.url }}">
-              (read more)
-            </a>
-
-            <br> - {{ post.date | date: '%B %d, %Y' }}
-          </p>
-        </li>
-        {% endfor %}	
-      </ol>
+    <div class="w3-row">
       
+      <!-- row content -->
+      <div class="w3-col w3-container" style="width:70%">
+	<ol class="entry-previews">
+
+          {% for post in site.posts %}
+          <li>
+            <p class="post-preview">
+
+              <a href="{{ post.url }}">
+		{{ post.title }}
+              </a>
+
+              <br> {{ post.introduction }}
+
+              <a href="{{ post.url }}">
+		(read more)
+              </a>
+
+              <br> - {{ post.date | date: '%B %d, %Y' }}
+            </p>
+          </li>
+          {% endfor %}	
+	</ol>
+      </div>
+      <!-------------------->
+
     </div>
-    <!-------------------->
+    <!-- End of Blog Row -->
     
-  </div> <!-- End of Container -->
-</div>  <!-- END OF BLOG BLOCK -->
+  </div>
+  <!-- End of CONTENT -->
+  
+</div>
+<!-- END OF BLOG BLOCK -->
