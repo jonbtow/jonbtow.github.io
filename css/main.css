@@ -130,7 +130,7 @@ h4 {
 /*-------- Section Settings -------*/
 
 #about {
-    padding-top:30px;
+    padding-top:20px;
     height:600px;
     color:  black;
     background-color:#EEEEEE;    
@@ -142,7 +142,7 @@ h4 {
 }
 
 #projects {
-    padding-top:30px;
+    padding-top:20px;
 
 }
 #projects a {
@@ -150,14 +150,14 @@ h4 {
 }
 
 #contact {
-    padding-top:30px;
+    padding-top:20px;
 }
 #contact a {
     padding:0px 5px 0px 5px;
 }
 
 #blog {
-    padding-top:30px;
+    padding-top:20px;
     color: white;
     background-color: #E8B71A;
 }
