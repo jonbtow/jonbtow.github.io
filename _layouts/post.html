@@ -1,25 +1,29 @@
 {% include _skeleton/head.html %}
 
 <!-- Post Block -->
-<div class="w3-row-padding">    
-  <h1>
-    <a href="{{ site.github.url }}/index.html#blog">
-      Back
-    </a>
-  </h1>   
-</div>
+<div class="w3-container w3-card-2 w3-white">
 
-<div class="w3-row-padding">  
-  
-  <div class="post-section">
+  <!-- Back Nav -->
+  <div class="w3-container">
+    <h1>
+      <a href="{{ site.github.url }}/index.html">
+	Back
+      </a>
+    </h1>   
+  </div>
+  <!-- End of Back Nav -->
+
+  <hr>
+
+  <!-- Post Content -->
+  <div class="w3-container">
 
     <h1>{{ page.title }}</h1> 
     <p>{{ page.date | date_to_string }}</p>
 
     <p>{{ page.introduction }}</p>
 
-    {{ content }}        
-    
+    <p>{{ content }}</p>   
 
     
     <!--   DISQUS SET UP   -->
