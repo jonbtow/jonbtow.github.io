@@ -54,7 +54,9 @@
     <div class="w3-content w3-margin-top" style="max-width:1400px;">
 
 
-<top-section>  
+
+<!-- Post Nav Block -->
+<div class="w3-row-padding post-nav-row">    
     <div class = "head">
         <h1>                        
             <a href="/blog.html">
@@ -62,52 +64,70 @@
             </a>
         </h1>   
     </div>
-</top-section>
+</div>
+<!-- End of Post Nav Block -->
 
-<section> 
-    <div class="post-section">
+<hr>
 
-      <h1>What I liked about CSE 300.</h1> 
-              <p>25 Apr 2017</p>
 
-      <p>This was a fun assignment.</p>
+<!-- Right Column -->
+<div class="w3-row-padding">
 
-      
+  <!-- Note: content.html MUST be followed (eventually) by a 
+             footer.html include. 
+    -->
+
+
+
+<!-- Post Block -->
+<div class="w3-row-padding">  
+  
+  <div class="post-section">
+
+    <h1>What I liked about CSE 300.</h1> 
+    <p>25 Apr 2017</p>
+
+    <p>This was a fun assignment.</p>
+
+    
         
     
 
     
-<!--    DISQUS SET UP         -->
+    <!--   DISQUS SET UP   -->
      
-<div id="disqus_thread"></div>
-<script>
+    <div id="disqus_thread"></div>
+    <script>
 
-/**
-*  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-*  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-/*
-var disqus_config = function () {
-this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-};
-*/
-(function() { // DON'T EDIT BELOW THIS LINE
-var d = document, s = d.createElement('script');
-s.src = '//jonwot-github-io.disqus.com/embed.js';
-s.setAttribute('data-timestamp', +new Date());
-(d.head || d.body).appendChild(s);
-})();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-                       
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//jonwot-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     
-       </div>
+    
+  </div>
 
-</section>
+</div>
+<!-- End of Post Block-->
 
 <!-- Footer -->
 <div class="w3-row-padding nav-row">  
-  <div class="w3-text-grey w3-margin-bottom">
+
+  <div class="container w3-text-grey w3-margin-bottom">
+
     <div id="footer" class="container-fluid"> 
       <h3>
 	New York, New York <br>
@@ -115,11 +135,16 @@ s.setAttribute('data-timestamp', +new Date());
       </h3>
     </div>
 
-  </div> <!-- End Right Column area -->
+  </div>
+  <!-- End Footer area -->
   
-</div> <!-- End Grid area    -->
-</div> <!-- End Full-Content area -->
+</div>
+<!-- End FOOTER Block  -->
+
+</div>
+<!-- End Content (content.html) area -->
 
 </body> 
 
 </html>
+
