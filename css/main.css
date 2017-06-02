@@ -68,8 +68,6 @@ h6 {
 h1 {
     font-size: 28px;
     font-weight: 500;
-    text-align: left;
-    display: inline;
 }
 h2 {
     color: #616161;
@@ -121,7 +119,6 @@ h4 {
     height:80px;
 }
 
-
 section {
     width: 100%;
     display: flex;
@@ -131,7 +128,6 @@ section {
     /* padding-top: 0.5rem; */
     border-top: 1px solid #ccc;
 }
-
 
 /*--------- Head Navigator ---------*/
 
@@ -145,6 +141,7 @@ section {
     padding-left:300px;
 }
 
+/*--------- Links ------------*/
 
 /*--- Link colors 
 #1FDA9A - lightgreen
@@ -154,8 +151,6 @@ section {
 #DB3340 - red
 ---*/
 
-
-/*--------- Links ------------*/
 a,
 a:hover {
     -o-transition: .35s;
@@ -165,7 +160,6 @@ a:hover {
     transition: .35s;
     color:inherit;
 }
-
 
 section a {
     font-weight: 600;
