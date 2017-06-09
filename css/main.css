@@ -124,12 +124,6 @@ section {
 
 /*--------- Head Navigator ---------*/
 
-.navbar {
-    margin:0 auto;
-    text-align:center;
-    padding-top:20px;
-}
-
 .card-nav {
     padding:1em;    
     padding-left:30em;
