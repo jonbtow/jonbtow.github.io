@@ -28,17 +28,13 @@ body {
 
     line-height: 1.5;
     
-    color: #1a1b1c ;
+    color: #555;
 }
 
 .content {
     flex: 1 0 auto;
 }
 
-/* ul.nav-pills { */
-/*       top: 40px; */
-/*       position: fixed; */
-/* } */
 
 ol {   
     list-style-type: decimal;
