@@ -92,9 +92,8 @@ header {
 
 #about {
     padding-top:20px;
-    height:600px;
-    color:  black;
-    background-color:#EEEEEE; }
+    height: 45em;
+    background-color:#EEEEEE;}
 #about a {
     padding:0px 5px 0px 5px;
 }
