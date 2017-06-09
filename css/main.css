@@ -130,8 +130,9 @@ section {
     padding-top:20px;
 }
 
-.block-nav {
-    padding-left:300px;
+.card-nav {
+    padding:1em;    
+    padding-left:30em;
 }
 
 /*--------- Links ------------*/
@@ -187,7 +188,7 @@ a:visited {
 	width: 100%;
     }
     
-    .block-nav {
+    .card-nav {
     	display:none;
 	width:0px;
     }
