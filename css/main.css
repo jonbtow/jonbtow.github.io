@@ -151,14 +151,18 @@ section {
 #DB3340 - red
 ---*/
 
-a,
+a {
+
+    color: blue;
+}
+
 a:hover {
     -o-transition: .35s;
     -ms-transition: .35s;
     -moz-transition: .35s;
     -webkit-transition: .35s;
     transition: .35s;
-    color: blue;
+    color: red;
 }
 
 a:link,
