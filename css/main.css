@@ -72,14 +72,14 @@ h1 {
 h2 {
     color: #616161;
     display: inline;
-    font-weight: lighter;
+    font-weight: 400;
     font-size: 1.7em;
 }
 h3 {
     width: 80%;
 /*    max-width: 40em;*/
     font-size: 1.5em;
-    font-weight: lighter;
+    font-weight: 400;
 }
 h4 {
     font-size: 1.3em;
@@ -152,7 +152,7 @@ section {
 ---*/
 
 a {
-    font-weight:200;
+    font-weight:300;
     color: #0698EC;
 }
 
