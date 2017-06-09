@@ -6,12 +6,12 @@
     text-decoration: inherit;
 }
 
-doc {
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    border: 0px solid blue;
-}
+/* doc { */
+/*     display: flex; */
+/*     flex-direction: column; */
+/*     flex-wrap: nowrap; */
+/*     border: 0px solid blue; */
+/* } */
 
 html, body {
     height: 100%;
@@ -26,7 +26,7 @@ body {
     font-size: 1em;
     font-family:"Avenir";
 
-    line-height: 24px;
+    line-height: 1.5;
     
     color: #1a1b1c ;
 }
@@ -60,7 +60,7 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 {    
     display: inline;
     font-family: "Avenir", sans-serif;
 }
@@ -70,8 +70,13 @@ h1 {
     font-weight: 500;
 }
 h2 {
+    margin-top: 1em;
+    padding-top: 1em;
+
     color: #616161;
+
     display: inline;
+
     font-weight: 400;
     font-size: 1.7em;
 }
