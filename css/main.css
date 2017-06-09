@@ -49,11 +49,6 @@ li {
 }
 
 /*-------- Header settings and Em -------*/
-
-strong {
-  color: #333;
-}
-
 h1,
 h2,
 h3,
@@ -89,7 +84,9 @@ h4 {
     font-size: 1.3em;
     padding: 0px 20px 0px 0px;
 }
-
+strong {
+  color: #333;
+}
 /*-------- Section Settings -------*/
 
 #about {
