@@ -79,14 +79,6 @@ strong {
   color: #333;
 }
 
-header {
-    background-image: url("../data/about/beach.png");
-    background-position: center top;
-    background-repeat: no-repeat;
-    background-size: cover;
-    line-height: 1.2;
-        
-}
 
 /*-------- Section Settings -------*/
 
