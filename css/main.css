@@ -89,7 +89,10 @@ strong {
 #about a {
     padding:0px 5px 0px 5px;
 }
-
+#about header {
+    Background-color: #B388FF;
+}
+	     
 #projects {
     padding-top:20px;
     height:600px; }
