@@ -35,7 +35,6 @@ body {
     flex: 1 0 auto;
 }
 
-
 ol {   
     list-style-type: decimal;
 }
@@ -49,7 +48,11 @@ li {
     max-width:45em;
 }
 
-/*-------- Header settings -------*/
+/*-------- Header settings and Em -------*/
+
+strong {
+  color: #333;
+}
 
 h1,
 h2,
