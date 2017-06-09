@@ -66,23 +66,23 @@ h6 {
 }
 
 h1 {
-    font-size: 1.5em;
+    font-size: 2em;
     font-weight: 500;
 }
 h2 {
     color: #616161;
     display: inline;
     font-weight: lighter;
-    font-size: 22px;
+    font-size: 1.7em;
 }
 h3 {
     width: 80%;
     max-width: 600px;
-    font-size: 20px;
+    font-size: 1.5em;
     font-weight: lighter;
 }
 h4 {
-    font-size: 120%;
+    font-size: 1.3em;
     padding: 0px 20px 0px 0px;
 }
 
@@ -190,7 +190,7 @@ a:visited {
 }
 @media all {
     html {
-        font-size: 16px;
+        font-size: 1em;
     }
 }
 
@@ -198,7 +198,7 @@ a:visited {
     #about, #projects, #contact, #blog {
 
 	margin:0;
-	font-size: 16px;
+	font-size: 1em;
 	padding-left:5px;
 	width: 100%;
     }
