@@ -6,13 +6,6 @@
     text-decoration: inherit;
 }
 
-/* doc { */
-/*     display: flex; */
-/*     flex-direction: column; */
-/*     flex-wrap: nowrap; */
-/*     border: 0px solid blue; */
-/* } */
-
 html, body {
     height: 100%;
 }
@@ -48,6 +41,9 @@ li {
     max-width:45em;
 }
 
+.card-nav {
+    
+}
 /*-------- Header settings and Em -------*/
 h1,
 h2,
@@ -72,8 +68,6 @@ h2 {
     font-size: 1.7em;
 }
 h3 {
-/*    width: 80%;*/
-/*    max-width: 40em;*/
     font-size: 1.5em;
     font-weight: 400;
 }
