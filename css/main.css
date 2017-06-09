@@ -50,7 +50,7 @@ li {
 .w3-row-padding  {
     /* center rows */
     margin: 0 auto;
-    max-width:700px;
+    max-width:50em;
 }
 
 /*-------- Header settings -------*/
@@ -77,7 +77,7 @@ h2 {
 }
 h3 {
     width: 80%;
-    max-width: 600px;
+/*    max-width: 40em;*/
     font-size: 1.5em;
     font-weight: lighter;
 }
@@ -186,7 +186,7 @@ a:visited {
     }
 }
 
-@media screen and (max-width: 790px) {
+@media screen and (max-width: 50em) {
     #about, #projects, #contact, #blog {
 
 	margin:0;
