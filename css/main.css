@@ -158,19 +158,7 @@ a:hover {
     -moz-transition: .35s;
     -webkit-transition: .35s;
     transition: .35s;
-    color:inherit;
-}
-
-section a {
-    font-weight: 600;
-    color: #F7EAC8;
-}
-
-section a:hover {
-    text-decoration: inherit;
-    background-size: cover;
-    background-color: #fff8e1;
-    color: #28ABE3;
+    color: blue;
 }
 
 a:link,
