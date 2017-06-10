@@ -87,7 +87,7 @@ header a {
 
 #about, #projects, #blog, #footer{
     padding-top: 1.1em;
-    height: auto;
+    height: 40em;
 }
 
 #about {
