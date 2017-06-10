@@ -147,7 +147,7 @@ a:hover {
     -moz-transition: .35s;
     -webkit-transition: .35s;
     transition: .35s;
-    color:red;
+    color:#FF5252;
 }
 
 a:link,
