@@ -79,8 +79,11 @@ strong {
   color: #333;
 }
 
-
 /*-------- Section Settings -------*/
+
+header {
+    padding: 0 .4em 0 .4em;
+}
 
 #about {
     padding-top:20px;
