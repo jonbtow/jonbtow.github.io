@@ -84,26 +84,23 @@ strong {
 
 #about {
     padding-top:20px;
-    height: 40em;}
-#about header {
-    background-color: #B388FF;
+    height: 40em;
 }
+
 
 #projects {
     padding-top:20px;
-    height: 40em; }
-#projects a {
-    padding:0px 5px 0px 5px;
+    height: 40em;
 }
+
 
 #blog {
     padding-top:20px;
     height: 40em;
     color: white;
-    background-color: #E8B71A; }
-#blog a {
-    padding:0px 5px 0px 5px;
+    background-color: #E8B71A;
 }
+
 
 #footer {
     padding-top:20px;
