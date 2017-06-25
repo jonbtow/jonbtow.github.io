@@ -48,7 +48,10 @@ li {
 
 .top-block {
     background-color: #0698EC;
+    box-shadow: 10px 10px 5px #888888;
+    color: white;
 }
+
 /*-------- Header settings and Em -------*/
 h1,
 h2,
@@ -56,7 +59,6 @@ h3,
 h4,
 h5,
 h6 {
-    color: #616161;
     font-family: "Avenir", sans-serif;
 }
 
