@@ -158,13 +158,13 @@ a {
 }
 
 a:hover {
-    text-shadow: 1px 1px 1px #888888;
+    -o-transition: .35s;
+    -ms-transition: .35s;
+    -moz-transition: .35s;
+    -webkit-transition: .35s;
+    transition: .35s;
 
-    -o-transition:  text-shadow 0.5s ease;
-    -ms-transition: text-shadow 0.5s ease;
-    -moz-transition: text-shadow 0.5s ease;
-    -webkit-transition:  text-shadow 0.5s ease;
-    transition: text-shadow 0.5s ease;
+    color:#888888;    
 }
 
 a:link,
