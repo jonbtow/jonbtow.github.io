@@ -45,6 +45,10 @@ li {
     margin-top:.5em;
     padding-top:.5em;
 }
+
+.top-nav {
+    background-color: blue;
+}
 /*-------- Header settings and Em -------*/
 h1,
 h2,
