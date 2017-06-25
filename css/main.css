@@ -158,12 +158,13 @@ a {
 }
 
 a:hover {
-    -o-transition: .35s;
-    -ms-transition: .35s;
-    -moz-transition: .35s;
-    -webkit-transition: .35s;
-    transition: .35s;
-    color:#FF5252;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.15);
+
+    -o-transition:  box-shadow 0.3s ease-in-out;;
+    -ms-transition:  box-shadow 0.3s ease-in-out;;
+    -moz-transition:  box-shadow 0.3s ease-in-out;;
+    -webkit-transition:  box-shadow 0.3s ease-in-out;;
+    transition:  box-shadow 0.3s ease-in-out;;
 }
 
 a:link,
