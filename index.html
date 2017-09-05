@@ -4,8 +4,7 @@ title: Home
 ---
 
 <button class="w3-button w3-display-left w3-black"  onclick="plusDivs(-1)">&#10094;</button>
-<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095; </button>
-
+<button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
 <script>
 var slideIndex = 1;
@@ -26,3 +25,9 @@ function showDivs(n) {
   x[slideIndex-1].style.display = "block";  
 }
 </script>
+
+<!--
+{% include _main-page/about.html %}
+{% include _main-page/projects.html %}
+{% include _main-page/blog.html %}
+-->
