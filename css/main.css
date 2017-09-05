@@ -118,7 +118,9 @@ footer {
     min-height: 40em;
     height: auto;
 }
-
+#about {
+    display:block;
+}
 #footer {
     padding-bottom:1.1em;
     height:5em;
