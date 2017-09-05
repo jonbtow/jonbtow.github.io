@@ -12,8 +12,14 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' 
           rel='stylesheet' type='text/css'>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>      
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <!-- Scripts -->
+    <script
+       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+    </script>      
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
     <script src="https://use.fontawesome.com/5b0778892e.js"></script>
     
     <!-- SMOOTH SCROLLING -->
@@ -42,7 +48,42 @@
       });
       });
     </script>
+      
+    <!-- SLIDE SHOW -->
+    <button class="w3-button w3-display-left w3-black"  onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("slide");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" w3-red", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-red";
+    }
+    </script>
+
+    <!--------------->
+    
     <title>Jonathan Tow</title>
     
   </head>
@@ -58,20 +99,20 @@
       <div class="w3-row-padding">
 
 
-<!-- Post Block -->
-<div class="w3-container w3-card-2 w3-white">
-
-  <!-- Back Nav -->
-  <div class="w3-container w3-padding-16">
+  <!-- Content Nav -->
+  <nav class="w3-bar w3-padding-16">
     <h3>
-      <a href="/index.html">
+      <a href="/index.html/#blog"
+	 class="w3-bar-item">
 	Back
       </a>
     </h3>   
-  </div>
-  <!-- End of Back Nav -->
+  </nav>
+  <!-- End of Content Nav -->
 
-  <hr>
+
+<!-- Post Block -->
+<div class="w3-container w3-card-2 w3-white">
 
   <!-- Post Content -->
   <div class="w3-container">
@@ -115,21 +156,21 @@
 <!-- End of Post Block-->
 
 <!-- Footer -->
-<div class="w3-row-padding nav-row">  
+<footer class="w3-row-padding nav-row">  
 
   <div class="container w3-text-grey w3-margin-bottom">
 
     <div id="footer" class="container-fluid"> 
-      <h3>
+      <h4>
 	New York, New York <br>
 	©2017 Jonathan Tow
-      </h3>
+      </h4>
     </div>
 
   </div>
   <!-- End Footer area -->
   
-</div>
+</footer>
 <!-- End FOOTER Block  -->
 
 

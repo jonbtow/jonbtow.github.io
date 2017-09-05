@@ -12,8 +12,14 @@
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' 
           rel='stylesheet' type='text/css'>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>      
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"> </script>
+    <!-- Scripts -->
+    <script
+       src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+    </script>      
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
+    </script>
+
     <script src="https://use.fontawesome.com/5b0778892e.js"></script>
     
     <!-- SMOOTH SCROLLING -->
@@ -42,7 +48,42 @@
       });
       });
     </script>
+      
+    <!-- SLIDE SHOW -->
+    <button class="w3-button w3-display-left w3-black"  onclick="plusDivs(-1)">&#10094;</button>
+    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
+    <script>
+    var slideIndex = 1;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+      showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+      showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+      var i;
+      var x = document.getElementsByClassName("slide");
+      var dots = document.getElementsByClassName("demo");
+      if (n > x.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = x.length}
+      for (i = 0; i < x.length; i++) {
+         x[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+         dots[i].className = dots[i].className.replace(" w3-red", "");
+      }
+      x[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " w3-red";
+    }
+    </script>
+
+    <!--------------->
+    
     <title>Jonathan Tow</title>
     
   </head>
@@ -59,94 +100,28 @@
 
 
 <!-- Top Nav Block -->
-<div class="w3-row-padding nav-row">
-  
-  <div class="w3-text-grey w3-margin-bottom">
-
-    <nav class="navbar">  
-
-	<!--   <\!-- Brand and toggle get grouped for better mobile display -\-> -->
-	<!--   <div class="navbar-header"> -->
-	<!--     <button type="button" -->
-	<!-- 	    class="navbar-toggle collapsed" -->
-	<!-- 	    data-toggle="collapse" -->
-	<!-- 	    data-target="#bs-example-navbar-collapse-1" -->
-	<!-- 	    aria-expanded="false"> -->
-	<!--       <span class="sr-only">Toggle navigation</span> -->
-	<!--       <span class="icon-bar"></span> -->
-	<!--       <span class="icon-bar"></span> -->
-	<!--       <span class="icon-bar"></span> -->
-	<!--     </button> -->
-	<!--     <a class="navbar-brand" href="index.html"> -->
-	<!--       <h3>Jonathan Tow</h3> -->
-	<!--     </a> -->
-	<!--   </div> -->
-	<!-- </div> -->
-	<!-- <div class="collapse navbar-collapse" -->
-	<!--      id="bs-example-navbar-collapse-1"> -->
-
-	<h1> Jonathan Tow </h1>
-	<p>
-	  <i class="fa fa-envelope fa-fw w3-margin-right w3-large w3-text-teal">
-	  </i>
-	  <a href="mailto:jonathantow8@gmail.com">jonathantow8@gmail.com</a>
-	</p>
-        <p>
-	  <i class="fa fa-phone fa-fw w3-margin-right w3-large w3-text-teal">
-	  </i>
-	  (914)886-8004
-	</p>
-	  <!-- <ul class="nav navbar-nav"> -->
-	  <!--   <li><a href="#about">about</a></li> -->
-	  <!--   <li><a href="#projects">projects</a></li> -->
-	  <!--   <li><a href="#blog">blog</a></li> -->
-	  <!--   <li> -->
-	  <!--     <a href="https://github.com/jonbtow" class="icon"> -->
-	  <!-- 	<i class="fa fa-github fa-lg"></i> -->
-	  <!--     </a> -->
-	  <!--   </li> -->
-	  <!--   <li> -->
-	  <!--     <a href="https://twitter.com/jonbtow" class="icon"> -->
-	  <!-- 	<i class="fa fa-twitter fa-lg"></i> -->
-	  <!--     </a> -->
-	  <!--   </li> -->
-	  <!-- </ul> -->
-  
-    </nav>
-  </div>   
-</div>    
+ 
 <!-- End of Top Nav -->
 
 
     <!--  ABOUT BLOCK -->
-<div class="w3-container w3-card-2 w3-white w3-margin-bottom"
+<div class="slide w3-container w3-card-2 w3-white w3-margin-bottom"
      id="about"
      >
   
-  <!-- TOP NAV/TITLE -->
-  <div class="w3-container">
-
-    <i class="fa fa-rocket fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-       aria-hidden="true">
-    </i>
+  <!-- TOP TITLE/NAV ROW -->
+  <header class="w3-container">
     
-    <h1 class="w3-text-grey ">  About  </h1>
-
-    <div class="w3-bar w3-text-grey block-nav ">
-      <a href="#about"
-	 class="w3-bar-item w3-button w3-mobile">about</a>
-      <a href="#projects"
-	 class="w3-bar-item w3-button w3-mobile">projects</a>     
-      <a href="#blog"
-	 class="w3-bar-item w3-button w3-mobile">blog</a>
-      <a href="https://github.com/jonbtow" class="icon">
-	<i class="fa fa-github fa-lg"></i>
-      </a>
-      <a href="https://twitter.com/jonbtow" class="icon">
-	<i class="fa fa-twitter fa-lg"></i>
-      </a>
+    <!-- Title Column -->
+    <div class="w3-third w3-container">
+      <i class="w3-margin-right w3-xxlarge w3-text-blue"
+	 aria-hidden="true">
+      </i>     
+      <h2 class="w3-text-grey ">About</h2>
     </div>
-  </div>
+    <!------------------->
+   
+  </header>
   <!-- End of TOP NAV/TITLE -->
 
   <hr>
@@ -157,7 +132,7 @@
     <!-- Bio Row -->
     <div class="w3-row">
 
-      <!-- row title -->
+      <!-- Row title -->
       <div class="w3-col w3-container" style="width:30%">
 	Bio
       </div>
@@ -165,10 +140,7 @@
       
       <!-- row content -->
       <div class="w3-col w3-container" style="width:70%">
-        My name is Jonathan Tow. I'm currently attending
-        Stony Brook University as an undergraduate student studying
-	Computer Science and Applied Mathematics and Statistics.
-	I like visualizing data and teaching new tricks to my two parrots.
+My name is Jonathan Tow. I am currently an undergraduate student at Stony Brook University studying Computer Science and Applied Math & Statistics with a strong interest in data analysis.
       </div>  
       <!--------------->
     </div>
@@ -205,34 +177,22 @@
 <!--  END OF ABOUT BLOCK -->
 
 <!-- PROJECTS BLOCK -->
-<div class="w3-container w3-card-2 w3-white w3-margin-bottom"
-     id = "projects">
+<div class="slide w3-container w3-card-2 w3-white w3-margin-bottom"
+     id = "projects"
+     >
 
-  
-  <!-- TOP NAV/TITLE -->
-  <div class="w3-container">
+  <!-- TOP TITLE/NAV Row -->
+  <header class="w3-container">
 
-    <i class="fa fa-laptop fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-       aria-hidden="true">
-    </i>
-    
-    <h1 class="w3-text-grey ">  Projects  </h1>
-
-    <div class="w3-bar w3-text-grey block-nav ">
-      <a href="#about"
-	 class="w3-bar-item w3-button w3-mobile">about</a>
-      <a href="#projects"
-	 class="w3-bar-item w3-button w3-mobile">projects</a>     
-      <a href="#blog"
-	 class="w3-bar-item w3-button w3-mobile">blog</a>
-     <a href="https://github.com/jonbtow" class="icon">
-       <i class="fa fa-github fa-lg"></i>
-     </a>
-     <a href="https://twitter.com/jonbtow" class="icon">
-       <i class="fa fa-twitter fa-lg"></i>
-     </a>
+    <!-- Title Column -->
+    <div class="w3-third w3-container">
+      <i class="w3-margin-right w3-xxlarge w3-text-blue"
+	 aria-hidden="true">
+      </i>     
+      <h2 class="w3-text-grey ">Projects</h2>
     </div>
-  </div>
+    <!------------------->
+  </header>
   <!-- End of TOP NAV/TITLE -->
 
   <hr>
@@ -268,34 +228,23 @@
 <!-- END OF PROJECTS BLOCK -->
 
 <!-- BLOG BLOCK -->
-<div class="blog w3-container w3-card-2 w3-white w3-margin-bottom"
+<div class="slide w3-container w3-card-2 w3-white w3-margin-bottom"
      id="blog"
      >
 
   <!-- TOP NAV/TITLE -->
-  <div class="w3-container">
+  <header class="w3-container">
 
-    <i class="fa fa-bookmark fa-fw w3-margin-right w3-xxlarge w3-text-teal"
-       aria-hidden="true">
-    </i>
-    
-    <h1 class="w3-text-grey ">  Blog  </h1>
-
-    <div class="w3-bar w3-text-grey block-nav ">
-      <a href="#about"
-	 class="w3-bar-item w3-button w3-mobile">about</a>
-      <a href="#projects"
-	 class="w3-bar-item w3-button w3-mobile">projects</a>     
-      <a href="#blog"
-	 class="w3-bar-item w3-button w3-mobile">blog</a>
-     <a href="https://github.com/jonbtow" class="icon">
-       <i class="fa fa-github fa-lg"></i>
-     </a>
-     <a href="https://twitter.com/jonbtow" class="icon">
-       <i class="fa fa-twitter fa-lg"></i>
-     </a>
+    <!-- Title Column -->
+    <div class="w3-third w3-container">
+      <i class="w3-margin-right w3-xxlarge w3-text-blue"
+	 aria-hidden="true">
+      </i>     
+      <h2 class="w3-text-grey ">Blog</h2>
     </div>
-  </div>
+    <!------------------->
+   
+  </header>
   <!-- End of TOP NAV/TITLE -->
 
   <hr>
@@ -343,22 +292,23 @@
 
 
 
+
 <!-- Footer -->
-<div class="w3-row-padding nav-row">  
+<footer class="w3-row-padding nav-row">  
 
   <div class="container w3-text-grey w3-margin-bottom">
 
     <div id="footer" class="container-fluid"> 
-      <h3>
+      <h4>
 	New York, New York <br>
 	©2017 Jonathan Tow
-      </h3>
+      </h4>
     </div>
 
   </div>
   <!-- End Footer area -->
   
-</div>
+</footer>
 <!-- End FOOTER Block  -->
 
 
