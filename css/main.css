@@ -112,25 +112,11 @@ footer {
     font-weight: 300;
 }
 
-/*-------- Section Settings -------*/
+/*-------- Slide/Section Settings -------*/
 #about, #projects, #blog {
     padding-top: 1.1em;
     min-height: 40em;
     height: auto;
-}
-
-#about {
-    
-}
-
-#projects {
-    
-}
-
-
-#blog {
-
-
 }
 
 #footer {
@@ -138,15 +124,20 @@ footer {
     height:5em;
 }
 
+.slide {
+    display: none;
+}
+/*
 section {
     width: 100%;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: baseline;
-    /* padding-top: 0.5rem; */
+
     border-top: 1px solid #ccc;
 }
+*/
 /*----------------------------------*/
 
 
