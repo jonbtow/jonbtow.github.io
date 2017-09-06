@@ -4,9 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+      
     <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-    <link rel="stylesheet"
-	  href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+      
     <link rel="stylesheet" href="/css/main.css">
     
     <link href='http://fonts.googleapis.com/css?family=Lato:400,700' 
@@ -17,7 +22,6 @@
        src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
     </script>      
 
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js">
     </script>
 
     <script src="https://use.fontawesome.com/5b0778892e.js"></script>
@@ -48,39 +52,7 @@
       });
       });
     </script>
-      
-    <!-- SLIDE SHOW -->
-    <button class="w3-button w3-display-left w3-black"  onclick="plusDivs(-1)">&#10094;</button>
-    <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">&#10095;</button>
 
-    <script>
-    var slideIndex = 1;
-    showDivs(slideIndex);
-
-    function plusDivs(n) {
-      showDivs(slideIndex += n);
-    }
-
-    function currentDiv(n) {
-      showDivs(slideIndex = n);
-    }
-
-    function showDivs(n) {
-      var i;
-      var x = document.getElementsByClassName("slide");
-      var dots = document.getElementsByClassName("demo");
-      if (n > x.length) {slideIndex = 1}
-      if (n < 1) {slideIndex = x.length}
-      for (i = 0; i < x.length; i++) {
-         x[i].style.display = "none";
-      }
-      for (i = 0; i < dots.length; i++) {
-         dots[i].className = dots[i].className.replace(" w3-opacity-off", "");
-      }
-      x[slideIndex-1].style.display = "block";
-      dots[slideIndex-1].className += " w3-opacity-off";
-    }
-    </script>
 
     <!--------------->
     
@@ -155,55 +127,19 @@
 </div>
 <!-- End of Post Block-->
 
-<!-- Footer Block -->
-<footer class="w3-container">
+<!-- Footer -->
+<footer class="w3-row-padding nav-row">  
 
-    <div class="w3-content w3-margin-left" style="max-width:1200px">
+  <div class="container w3-text-grey w3-margin-bottom">
 
-        <div class="w3-row-padding w3-section">
-
-            <div class="w3-col s4">
-                <div class="w3-center footer demo w3-opacity w3-hover-opacity-off"  onclick="currentDiv(1)">
-
-                    <!-- TOP TITLE/NAV ROW -->
-
-                            <h2 class="w3-text-grey ">About</h2>
-
-
-                    <!------------------->
-     
-                </div>
-            </div>
-        
-
-            <div class="w3-col s4">
-
-                <div class="w3-center footer demo w3-opacity w3-hover-opacity-off"  onclick="currentDiv(2)">
-
-                    <!-- TOP TITLE/NAV Row -->
-                         
-                            <h2 class="w3-text-grey ">Projects</h2>
-
-                    <!------------------->        
-
-                </div>
-            </div>
-    
-
-            <div class="w3-col s4">
-                
-                <div class="w3-center footer demo w3-opacity w3-hover-opacity-off" onclick="currentDiv(3)">
-
-                    <!-- TOP NAV/TITLE -->
-
-                            <h2 class="w3-text-grey ">Blog</h2>
-
-                    <!------------------->
-
-                </div>
-            </div>
-        </div>
+    <div id="footer" class="container-fluid"> 
+      <h4>
+	New York, New York <br>
+	©2017 Jonathan Tow
+      </h4>
     </div>
+
+  </div>
   <!-- End Footer area -->
   
 </footer>
@@ -212,7 +148,6 @@
 
 </div>
 <!-- End of Content Wrapper (open in head.html) -->
-
 </div>
 <!-- End Content area (open in head.html) -->
 

@@ -21,8 +21,10 @@ body {
     font-family: "Avenir", "Arial", sans-serif;;
 
     line-height: 1.5;
-    
-    color: #737373;
+    color: grey;
+
+    margin: 0 auto;
+    max-width: 50em;
 }
 
 .content {
@@ -56,10 +58,10 @@ h6 {
 h1 {
     font-size: 2em;
     font-weight: 500;
+
 }
 h2 {
     display: inline;
-
     font-weight: 400;
     font-size: 1.7em;
 }
@@ -111,13 +113,13 @@ footer {
 /*-------- Slide/Section Settings -------*/
 #about, #projects, #blog {
     padding-top: 1.1em;
-    min-height: 35em;
+    min-height: 40em;
     height: auto;
     overflow-y: auto;
+    background-color: #F6F5FA;
 }
 
 .footer {
-    /*padding-bottom:1.1em;*/
     
 }
 
@@ -142,6 +144,20 @@ section {
 */
 /*----------------------------------*/
 
+.navbar {
+    background-color: #7E6ACD;
+}
+
+.nav-link {
+    color: white;
+}
+.navbar-brand {
+    color: white;   
+}
+
+.navbar-nav { 
+    max-width: 30em;
+}
 
 /*--------- Links ------------*/
 
@@ -155,7 +171,7 @@ section {
 
 a {
     font-weight:500;
-    color: #0698EC;
+    color: #7E6ACD;
 }
 
 a:hover {
