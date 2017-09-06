@@ -118,7 +118,9 @@ footer {
     overflow-y: auto;
     background-color: #F6F5FA;
 }
-
+#nav {
+    background-color: #7E6ACD;
+}
 .footer {
     
 }
@@ -151,12 +153,19 @@ section {
 .nav-link {
     color: white;
 }
+.nav-link:hover {
+    color: #F5F3FB;
+}
 .navbar-brand {
     color: white;   
 }
-
+.navbar-brand:hover {
+    color: #F5F3FB;
+}
 .navbar-nav { 
     max-width: 30em;
+    padding-right:10em;
+    margin: auto auto auto 7em;
 }
 
 /*--------- Links ------------*/
