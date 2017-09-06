@@ -63,6 +63,11 @@ h2 {
     font-weight: 400;
     font-size: 1.7em;
 }
+ h2 > p::first-letter {
+    color: #7E6ACD;
+     text-decoration: underline;
+}
+
 h3 {
     font-size: 1.5em;
     font-weight: 400;
