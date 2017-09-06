@@ -153,12 +153,11 @@ footer {
 }
 .navbar-nav { 
     max-width: 30em;
-    margin-left:4em;
 }
 .nav-item {
     font-size: 1em;
-    padding-left:2em;
 }
+
 /*--------- Links ------------*/
 
 
@@ -187,6 +186,7 @@ a:visited {
     html {
         font-size: 1em;
     }
+   
 }
 @media (min-width: @screen-sm-min) {
     #about, #projects, #contact, #blog {
@@ -195,6 +195,7 @@ a:visited {
         padding-left:5px;
         width: 100%;
     }
+
 }
 
 @media screen and (max-width: 35em) {
@@ -204,11 +205,7 @@ a:visited {
         padding-left:5px;
         width: 100%;
     }
- 
-    #navbarNav {
-        margin:0;
-        padding: 0;
-    }
+
     .card-nav {
        display:none;
 	   width:0px;
