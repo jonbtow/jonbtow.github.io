@@ -1,63 +1,58 @@
-<!-- PROJECTS BLOCK -->
+<!-- Projects Section -->
 <div class="w3-container w3-margin-bottom"
      id = "projects"
      >
 
-    <!-- TOP TITLE/NAV Row -->
+    <!-- Section Title Row -->
     <header class="w3-container">
 
-    <!-- Title Column -->
-    <div class="w3-third w3-container">      
-       <h2><p>Projects</p></h2>    
-    </div>
+        <div class="w3-third w3-container">      
+            <h2><p>Projects</p></h2>    
+        </div>
+        
     </header>
     <!------------------->
     
-  <!-- End of TOP NAV/TITLE -->
+    <hr>
 
-  <hr>
-
-  <!-- CONTENT -->
-  <div class="w3-container">   
+    <!-- Content -->    
+    <div class="w3-container">   
     
-    <!-- Note Projects Row -->
-    <div class="w3-row">
+        <!-- Note Projects Row -->
+        <div class="w3-row">
       
-      <!-- row title -->
-      <div class="w3-col w3-container" style="width:30%">
-	   Notes
-      </div>
-      <!--------------->
+            <!-- Row Title -->
+            <div class="w3-col w3-container" style="width:30%">
+                Notes
+            </div>
+            <!--------------->
 
-      <!-- row content -->
-      <div class="w3-col w3-container" style="width:70%">
-	<ol class="entry-previews">
-          {% assign projects = site.projects %}
-          {% for project in projects %}
-          <li>
-            <p class="post-preview">
+            <!-- Row Content -->
+            <div class="w3-col w3-container" style="width:70%">
+                <ol class="entry-previews">
+                    {% assign projects = site.projects %}
+                    {% for project in projects %}
+                    <li>
+                        <p class="post-preview">
+                            <a href="{{ project.url }}">
+                                {{ project.title }}
+                            </a>
+                            <br> 
+                                {{project.introduction}}
+                            <a href="{{ project.url }}">
+                                (read more)
+                            </a>
+                        </p>
+                    </li>
+                    {% endfor %}
+                </ol>
+            </div>
+            <!--------------->
 
-              <a href="{{ project.url }}">
-		{{ project.title }}
-              </a>
-
-              <br> {{project.introduction}}
-
-              <a href="{{ project.url }}">
-		(read more)
-              </a>
-            </p>
-          </li>
-          {% endfor %}
-	</ol>
-      </div>
-      <!--------------->
+        </div>
+        <!-- End of Note Projects Row -->
 
     </div>
-    <!-- End of Note Projects Row -->
-    
-  </div>
-  <!-- End of CONTENT -->
-  
+    <!-- End of Content -->
 </div>
-<!-- END OF PROJECTS BLOCK -->
+<!-- End of Projects Section -->
