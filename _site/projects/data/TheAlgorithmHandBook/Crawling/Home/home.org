@@ -1,0 +1,42 @@
+#+HTML_HEAD: <link rel="stylesheet" type="text/css" href="../CSS/org-style.css" />
+#+OPTIONS: html-postamble:nil
+
+#+TITLE: Crawling Home
+
+[[./data/home.png]]
+
+
+# Sections
+ 
+[[../1DescribingAlgorithms/1DescribingAlgorithms.html][Describing Algorithms]]
+
+[[../2SortingAndSearching/2SortingAndSearching.html][Sorting and Searching]]
+
+[[../3SimpleDataStructures/3SimpleDataStructures.html][Simple Data Structures]]
+
+To navigate through sections use the Table of Contents in the *top right corner*.
+
+# Appendix
+
+[[../Appendix/P.ProgrammingStyle.html][P. Programming Style]]
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
