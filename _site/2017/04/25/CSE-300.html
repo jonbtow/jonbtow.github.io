@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    
+    <link rel="stylesheet" 
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" 
+          integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" 
+          crossorigin="anonymous">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="/css/main.css">
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' 
+          rel='stylesheet' type='text/css'>
+    
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" 
+            integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" 
+            crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" 
+            integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" 
+            crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" 
+            integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" 
+            crossorigin="anonymous"></script>
+
+    <!-- Scripts -->      
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js">
+    </script>      
+
+    <script src="https://use.fontawesome.com/5b0778892e.js"></script>
+    
+    
+    <!-- Smooth Scrolling -->
+    <script>
+      $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+
+      // Make sure this.hash has a value before overriding default behavior
+      if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number
+      // of milliseconds it takes to scroll to the specified area
+      $('html, body').animate(
+      {scrollTop: $(hash).offset().top},
+      800, function(){
+      // Add hash (#) to URL when done scrolling (default click behavior)
+      window.location.hash = hash;
+      }
+      );
+      } // End if
+      });
+      });
+    </script>
+
+    <!--------------->
+    
+    <title>Jonathan Tow</title>
+    
+  </head>
+
+  <body class="w3-light-grey"
+        data-spy="scroll"
+        data-target="#myScrollspy"
+        data-offset="20">
+
+
+    <!-- Content Area (close in footer.html) -->
+    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+      <!-- Content Wrapper -->
+      <div class="w3-row-padding">
+
+	
+	
+
+
+ <nav class="w3-bar w3-padding-16">
+  <h3>
+    <a href="../../../index.html"
+      class="w3-bar-item">
+	    Back
+    </a>
+  </h3>   
+</nav>
+
+<!-- Post Block -->
+<div class="w3-container w3-margin-bottom" id="blog">
+
+  <!-- Post Content -->
+  <div class="w3-container">
+
+    <h1>What I liked about CSE 300.</h1> 
+    <p>25 Apr 2017</p>
+
+    <p>This was a fun assignment.</p>
+
+    <p>
+</p>   
+
+    
+    <!--   DISQUS SET UP   -->
+     
+    <div id="disqus_thread"></div>
+    <script>
+
+      /**
+      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
+      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
+      /*
+      var disqus_config = function () {
+      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
+      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+      };
+      */
+      (function() { // DON'T EDIT BELOW THIS LINE
+      var d = document, s = d.createElement('script');
+      s.src = '//jonwot-github-io.disqus.com/embed.js';
+      s.setAttribute('data-timestamp', +new Date());
+      (d.head || d.body).appendChild(s);
+      })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    
+    
+  </div>
+
+</div>
+<!-- End of Post Block-->
+
+<!-- Footer -->
+<footer class="w3-row-padding nav-row">  
+    
+    <div class="w3-container w3-text-grey w3-margin-bottom">
+
+        <div id="footer" class="container-fluid"> 
+
+            New York, New York <br>
+            ©2017 Jonathan Tow
+        </div>
+
+    </div>
+    <!-- End Footer area -->
+  
+</footer>
+<!-- End Footer Block  -->
+
+</div>
+<!-- End of Content Wrapper (open in head.html) -->
+</div>
+<!-- End Content Area (open in head.html) -->
+
+</body> 
+
+</html>
+
