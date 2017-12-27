@@ -80,58 +80,61 @@
 	
 
 
- <nav class="w3-bar w3-padding-16">
-  <h3>
-    <a href="../../../index.html"
-      class="w3-bar-item">
-	    Back
-    </a>
-  </h3>   
-</nav>
+<!-- Top Nav Block -->
 
-<!-- Post Block -->
-<div class="w3-container w3-margin-bottom" id="blog">
 
-  <!-- Post Content -->
-  <div class="w3-container">
+<div class="w3-container"
+     id = "nav">
+  
 
-    <h1>What I liked about CSE 300.</h1> 
-    <p>25 Apr 2017</p>
+  <nav class="navbar navbar-toggleable-md bg-faded">
 
-    <p>This was a fun assignment.</p>
+    <button class="navbar-toggler navbar-light navbar-toggler-right" 
+            type="button" data-toggle="collapse" data-target="#navbarNav" 
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-    <p>
-</p>   
+    <a class="navbar-brand" href="#about">Jonathan Tow</a>
 
-    
-    <!--   DISQUS SET UP   -->
-     
-    <div id="disqus_thread"></div>
-    <script>
+    <div class="collapse navbar-collapse" id="navbarNav">
 
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//jonwot-github-io.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-    
-  </div>
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About </a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        
+        <li class="nav-item">
+          <a class="nav-link" href="#blog">Blog</a>
+        </li>
+
+	<li class="nav-item">
+	  <a class="nav-link" href="https://github.com/jonbtow">
+	    <i class="fa fa-github fa-lg"></i>
+	  </a>
+	</li>
+	
+	<li class="nav-item">
+	  <a class="nav-link" href="https://twitter.com/jonbtow">
+	    <i class="fa fa-twitter fa-lg"></i>
+	  </a>
+	</li>
+
+      </ul>
+
+    </div>
+  </nav>
 
 </div>
-<!-- End of Post Block-->
+<!-- End of Top Nav -->
+
+
+    
+
 
 <!-- Footer -->
 <footer class="w3-row-padding nav-row">  

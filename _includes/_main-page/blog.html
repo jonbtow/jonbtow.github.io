@@ -3,52 +3,63 @@
      id="blog"
      >
 
-    <!-- Section Title Row -->
-    <header class="w3-container">
-        
-        <div class="w3-third w3-container">
-            <h2><p>Blog</p></h2>
-        </div>
-
-    </header>
-    <!------------------->
-   
-    <hr>
-
-    <!-- Content -->
-    <div class="w3-container">
+  <!-- Section Title Row -->
+  <header class="w3-container">
     
-        <!-- Blog Row -->
-        <div class="w3-row">
-      
-            <!-- Row Content -->
-            <div class="w3-col w3-container" style="width:100%">
-                <ol class="entry-previews">
-                    {% for post in site.posts %}
-                    <li>
-                        <p class="post-preview">
-                            <a href="{{ post.url }}">
-                                {{ post.title }}
-                            </a>
-                            <br> 
-                                {{ post.introduction }}
-
-                            <a href="{{ post.url }}">
-                                (read more)
-                            </a>
-                            <br> 
-                                - {{ post.date | date: '%B %d, %Y' }}
-                        </p>
-                    </li>
-                    {% endfor %}	
-                </ol>
-            </div>
-            <!-------------------->
-            
-        </div>
-        <!-- End of Blog Row -->
-        
+    <div class="w3-container">
+      <h2>
+	<p> Blog
+	  <a href="#nav" class="top-link"> Back to top</a>
+	</p>
+      </h2>
     </div>
-    <!-- End of Content -->
+
+    
+  </header>
+  <!------------------->
+  
+  <hr>
+
+  <!-- Content -->
+  <div class="w3-container">
+    
+    <!-- Blog Row -->
+    <div class="w3-row">
+      
+      <!-- Row Content -->
+      <div class="w3-col w3-container" style="width:100%">
+        <ol class="entry-previews">
+
+	  <!-- Limit the number of post here to 5 -->
+          {% for post in site.posts limit:5 %}
+          <li>
+            <p class="post-preview">
+              <a href="{{ post.url }}">
+                {{ post.title }}
+              </a>
+
+              <br> 
+
+	      {{ post.introduction }}
+
+              <a href="{{ post.url }}">
+                (read more)
+              </a>
+
+	      <br> 
+
+	      - {{ post.date | date: '%B %d, %Y' }}
+            </p>
+          </li>
+          {% endfor %}	
+        </ol>
+      </div>
+      <!-------------------->
+      
+    </div>
+    <!-- End of Blog Row -->
+    
+  </div>
+  <!-- End of Content -->
 </div>
 <!-- End of Blog Section -->
