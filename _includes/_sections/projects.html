@@ -1,0 +1,51 @@
+<!-- Projects Section -->
+<div class="w3-container w3-margin-bottom"
+     id = "projects"
+     >
+
+  <!-- Section Title Row -->
+  <header class="w3-container">
+
+    <div class="w3-container">      
+      <h2>
+	<p>Projects
+	  <a href="#nav" class="top-link"> Back to top</a>
+	</p>
+      </h2>
+    </div>
+    
+  </header>
+  <!------------------->
+  
+  <hr>
+  <!-- Content -->    
+  <div class="w3-container">   
+    
+    <!-- Note Projects Row -->
+    <div class="w3-row-padding">
+
+      <!-- Row Content -->
+      <div class="w3-col w3-container" style="width:70%">
+        <ol class="entry-previews">
+          {% for project in site.projects %}
+          <li>
+            <p class="post-preview">
+              <a href="{{ project.url }}">
+                {{ project.title }}
+		<br>
+                {{project.introduction}}
+                (read more)
+              </a>
+            </p>
+          </li>
+          {% endfor %}
+        </ol>
+      </div>
+      <!--------------->
+    </div>
+    <!-- End of Note Projects Row -->
+
+  </div>
+  <!-- End of Content -->
+</div>
+<!-- End of Projects Section -->
