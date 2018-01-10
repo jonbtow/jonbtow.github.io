@@ -133,50 +133,71 @@
 <!-- End of Top Nav -->
 
 
-<!-- Post Block -->
-<div class="w3-container w3-margin-bottom" id="blog">
+<!-- Note Block -->
+<div class="w3-container w3-margin-bottom" id="note">
 
-  <!-- Post Content -->
+  <!-- Note Content -->
   <div class="w3-container">
+    <h1> Functions </h1>
+    <hr>
+    <p><ul>
+  <li>
+    <h2 id="small">Small</h2>
+  </li>
+</ul>
 
-    <h1>What I liked about CSE 300.</h1> 
-    <p>25 Apr 2017</p>
+<p>Functions should be <strong>small</strong>. This implies that blocks within statements for <em>if</em>,
+<em>else</em>, <em>while</em>, etc. should ideally be one line long. Preferrably, that line should be a function call.
+The extra benefit is that that function can have a nice descriptive name to make the code’s purpose more readable.</p>
 
-    <p>This was a fun assignment.</p>
+<p>General rule: the indent level of a function should not be greater than two or three.</p>
 
-    <p>
+<p><strong><span style="color: green">Encouraged</span>:</strong> <em>at most</em> 3 levels of indentation</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
+    <span class="k">for</span> <span class="o">...</span><span class="p">:</span>
+        <span class="k">if</span> <span class="o">...</span><span class="p">:</span> 
+   	    <span class="n">do_something</span><span class="p">()</span></code></pre></figure>
+
+<p><strong><span style="color: red">Discouraged</span>:</strong></p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
+    <span class="k">for</span> <span class="o">...</span><span class="p">:</span>
+        <span class="k">if</span> <span class="o">...</span><span class="p">:</span>
+	   <span class="k">if</span> <span class="o">...</span><span class="p">:</span>
+	       <span class="n">do_something</span><span class="p">()</span></code></pre></figure>
+
+<p>Note the discouraged code contains 4 indentations from the function</p>
+
+<ul>
+  <li>
+    <h2 id="do-one-thing">Do One Thing</h2>
+  </li>
+</ul>
+
+<p><strong>Functions should do one thing. Do that one thing well. Do it only</strong>. To know if a function is doing more	than one thing, check to see if you can extract another function from it with a name that is not merely a
+restatement of its implementation.</p>
+
+<p>Note: If your function is divided into sections as declarations, initializations and algorithms, you may be doing more than one thing. Functions that do one thing cannot be easily divided into sections</p>
+
+<ul>
+  <li>
+    <h2 id="one-level-of-abstraction-per-function">One Level of Abstraction per Function</h2>
+  </li>
+</ul>
+
+<p>Mixing levels of abstraction is confusing.
+<strong>Step-Down Rule</strong>: Want code to read like a top-down narrative. That is, every function should be followed by
+those at the next level of abstraction so we can read the program descending one level of abstraction at a time,
+as we read down the list of functions (the facade at top , the details below).</p>
 </p>   
 
-    
-    <!--   DISQUS SET UP   -->
-     
-    <div id="disqus_thread"></div>
-    <script>
-
-      /**
-      *  RECOMMENDED CONFIGURATION VARIABLES: EDIT AND UNCOMMENT THE SECTION BELOW TO INSERT DYNAMIC VALUES FROM YOUR PLATFORM OR CMS.
-      *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
-      /*
-      var disqus_config = function () {
-      this.page.url = PAGE_URL;  // Replace PAGE_URL with your page's canonical URL variable
-      this.page.identifier = PAGE_IDENTIFIER; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
-      };
-      */
-      (function() { // DON'T EDIT BELOW THIS LINE
-      var d = document, s = d.createElement('script');
-      s.src = '//jonwot-github-io.disqus.com/embed.js';
-      s.setAttribute('data-timestamp', +new Date());
-      (d.head || d.body).appendChild(s);
-      })();
-    </script>
-    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-    
-    
   </div>
 
 </div>
-<!-- End of Post Block-->
+<!-- End of Note
 
+     Block-->
 <!-- Footer -->
 <footer class="w3-row-padding nav-row">  
   

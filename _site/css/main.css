@@ -1,8 +1,6 @@
 * {
     padding: 0;
-    line-height: 1.5;
     box-sizing: border-box;
-    
     text-decoration: inherit;
 }
 
@@ -12,16 +10,16 @@ html, body {
 
 body {
     min-height: 100%;
+    max-width: 50em;
+
     flex-direction: column;
-
     position: relative;
-
+    margin: 0 auto;
+    
     font-size: 1.2em;
     font-family: "Avenir", "Arial", sans-serif;
-
+    color: #333;
     line-height: 1.5;
-    margin: 0 auto;
-    max-width: 50em;
 }
 
 .content {
@@ -34,7 +32,7 @@ ol {
 li {
     list-style-type: none;
 }
- 
+
 .w3-row-padding  {
     /* center rows */
     margin: 0 auto;
@@ -42,21 +40,12 @@ li {
 }
 
 
-/*-------- Header settings and Em -------*/
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-family: "Avenir", sans-serif;
-}
-
+/*----------- Header Styling -----------*/
 h1 {
     font-size: 2em;
     font-weight: 500;
-
 }
+
 h2 {
     display: inline;
     font-weight: 400;
@@ -71,16 +60,19 @@ h3 {
     font-size: 1.5em;
     font-weight: 400;
 }
+
 h4 {
     font-size: 1.3em;
     padding: 0px 20px 0px 0px;
 }
 
 strong {
-  color: #333;
+    color: #333;
 }
+/*----------------------------------*/
 
-/*-------- Head/Footer Settings -------*/
+
+/*-------- Head/Footer Styling -------*/
 .top-header {
     background-color: #0698EC;
     box-shadow: 0px .8px 5px #888888;
@@ -111,9 +103,11 @@ footer {
     font-size: 1em;
     font-weight: 300;
 }
+/*----------------------------------*/
 
-/*-------- Section Settings -------*/
-#about, #projects, #blog {
+
+/*-------- Section Styling -------*/
+#about, #project, #blog, #note{
     padding-top: 1.1em;
     min-height: 40em;
     height: auto;
@@ -121,38 +115,46 @@ footer {
     background-color: #FCFCFC;
     color: #333;
 }
+
 .top-link {
     font-size:.5em;
     float:right;
 }
+
 .footer {
-    
 }
 
 .slide {
     display: none;
 }
+
 .demo {
     cursor:pointer
 }
-
 /*----------------------------------*/
+
+
+/*---------- Nav Styling ----------*/
 #nav {
     background-color: #7E6ACD;
 }
+
 .navbar {
     background-color: #7E6ACD;
 }
+
 .navbar-nav {
     padding-left: .4em;
     padding-top: .05em;
 }
+
 .nav-link {
     color: white;
 }
 .nav-link:hover {
     color: #F5F3FB;
 }
+
 .navbar-brand {
     font-size: 1.2em;
     color: white;   
@@ -163,10 +165,10 @@ footer {
 
 .nav-item {
 }
+/*----------------------------------*/
 
-/*--------- Links ------------*/
 
-
+/*------------- Links --------------*/
 a {
     font-weight:500;
     color: #7E6ACD;
@@ -186,33 +188,32 @@ a:link,
 a:visited {
     text-decoration: none;
 }
+/*----------------------------------*/
 
+
+/*---------- Device Specific Styling ----------*/
 @media all {
     html {
         font-size: 1em;
     }
-    
 }
+
 @media (min-width: @screen-sm-min) {
-    #about, #projects, #contact, #blog {
+    #about, #project, #contact, #blog, #note {
         margin:0;
         font-size: 1em;
         padding-left:5px;
         width: 100%;
     }
-
 }
 
 @media screen and (max-width: 35em) {
-    #about, #projects, #contact, #blog {
+    #about, #project, #contact, #blog, #note {
         margin:0;
         font-size: 1em;
         padding-left:5px;
         width: 100%;
     }
-
-    .card-nav {
-	display:none;
-	width:0px;
-    }
 }
+/*----------------------------------*/
+
