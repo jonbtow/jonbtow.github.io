@@ -1,28 +1,56 @@
 <!-- Projects Section -->
 <div class="w3-container w3-margin-bottom section"
-     id="project"
+     id = "project"
      >
 
   <!-- Section Title Row -->
-  <header class="w3-container">
+  <div class="w3-row">
 
-    <div class="w3-container">      
-      <h2>
+    <div class="w3-twothird w3-container">      
+      <h2 class="section-h2">
 	<p>Projects
-	  <a href="#nav" class="top-link"> Back to top</a>
 	</p>
       </h2>
     </div>
-    
-  </header>
+
+    <div class="w3-third w3-container">
+      <a href="#nav" class="top-link"> Back to top</a>
+    </div>
+  </div>
   <!------------------->
   
   <hr>
   <!-- Content -->    
   <div class="w3-container">   
-    Under Construction please visit my github for now.
-    <a href="https://github.com/jonbtow">github.com</a>
-    <!--------------->
+    
+    <!-- Note Projects Row -->
+    <div class="w3-row-padding">
+
+      <!-- Row Content -->
+      <div class="w3-col w3-container" style="width:70%">
+        <ol class="entry-previews">
+          {% for project in site.projects %}
+	  {% if project.level == 0 %}
+          <li>
+            <p class="post-preview">
+              <a href="{{ project.url }}">
+                {{ project.title }}
+		<br>
+              </a>
+
+	      {{project.description}}
+
+	      <a href="{{ project.url }}">
+		(read more)
+              </a>
+            </p>
+          </li>
+	  {% endif %}
+          {% endfor %}
+        </ol>
+      </div>
+      <!--------------->
+    </div>
     <!-- End of Note Projects Row -->
 
   </div>
