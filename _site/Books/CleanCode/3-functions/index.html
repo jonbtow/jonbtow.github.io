@@ -72,13 +72,11 @@
         data-offset="20">
 
 
-    <!-- Content Area (close in footer.html) -->
-    <div class="w3-content w3-margin-top" style="max-width:1400px;">
+    <!-- Main Area (close in footer.html) -->
+    <main class="w3-content w3-margin-top" style="max-width:1400px;">
+
       <!-- Content Wrapper -->
       <div class="w3-row-padding">
-
-	
-	
 
 <!-- Top Nav Block -->
 
@@ -134,16 +132,12 @@
 
   <!-- Note Content -->
   <div class="w3-container">
-    <h1> Functions </h1>
-    <hr>
-    <p><ul>
-  <li>
-    <h2 id="small">Small</h2>
-  </li>
-</ul>
+    <h1 class="text-center"> Functions </h1>
 
-<p>Functions should be <strong>small</strong>. This implies that blocks within statements for <em>if</em>,
-<em>else</em>, <em>while</em>, etc. should ideally be one line long. Preferrably, that line should be a function call.
+    <p><h2 id="small">Small</h2>
+
+<p>Functions should be <strong>small</strong>. Ideally, blocks within statements of <em>if</em>,
+<em>else</em>, <em>while</em>, etc. should be one line long. Preferrably, that line should be a function call.
 The extra benefit is that that function can have a nice descriptive name to make the code’s purpose more readable.</p>
 
 <p>General rule: the indent level of a function should not be greater than two or three.</p>
@@ -153,39 +147,115 @@ The extra benefit is that that function can have a nice descriptive name to make
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
     <span class="k">for</span> <span class="o">...</span><span class="p">:</span>
         <span class="k">if</span> <span class="o">...</span><span class="p">:</span> 
-   	    <span class="n">do_something</span><span class="p">()</span></code></pre></figure>
+   	    <span class="n">do_something</span><span class="p">()</span>
+    <span class="mi">1</span>   <span class="mi">2</span>   <span class="mi">3</span></code></pre></figure>
 
 <p><strong><span style="color: red">Discouraged</span>:</strong></p>
 
 <figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">def</span> <span class="nf">f</span><span class="p">():</span>
     <span class="k">for</span> <span class="o">...</span><span class="p">:</span>
-        <span class="k">if</span> <span class="o">...</span><span class="p">:</span>
+    	<span class="k">if</span> <span class="o">...</span><span class="p">:</span>
 	   <span class="k">if</span> <span class="o">...</span><span class="p">:</span>
-	       <span class="n">do_something</span><span class="p">()</span></code></pre></figure>
+	      <span class="n">do_something</span><span class="p">()</span>
+    <span class="mi">1</span>   <span class="mi">2</span>  <span class="mi">3</span>  <span class="mi">4</span></code></pre></figure>
 
 <p>Note the discouraged code contains 4 indentations from the function</p>
 
-<ul>
-  <li>
-    <h2 id="do-one-thing">Do One Thing</h2>
-  </li>
-</ul>
+<h2 id="do-one-thing">Do One Thing</h2>
 
-<p><strong>Functions should do one thing. Do that one thing well. Do it only</strong>. To know if a function is doing more	than one thing, check to see if you can extract another function from it with a name that is not merely a
+<p><strong>Functions should do one thing. Do that one thing well. Do it only</strong>. To know if a function is doing more	than one thing, check if you can extract another function from it with a name that is not merely a
 restatement of its implementation.</p>
 
 <p>Note: If your function is divided into sections as declarations, initializations and algorithms, you may be doing more than one thing. Functions that do one thing cannot be easily divided into sections</p>
 
-<ul>
-  <li>
-    <h2 id="one-level-of-abstraction-per-function">One Level of Abstraction per Function</h2>
-  </li>
-</ul>
+<h2 id="one-level-of-abstraction-per-function">One Level of Abstraction per Function</h2>
 
-<p>Mixing levels of abstraction is confusing.
-<strong>Step-Down Rule</strong>: Want code to read like a top-down narrative. That is, every function should be followed by
+<p>Mixing levels of abstraction is confusing.</p>
+
+<blockquote>
+  <p><strong>Step-Down Rule</strong>: Code should read like a top-down narrative. That is, every function should be followed by
 those at the next level of abstraction so we can read the program descending one level of abstraction at a time,
 as we read down the list of functions (the facade at top , the details below).</p>
+</blockquote>
+
+<p>Keeping functions to a single abstraction level is key to keeping functions short and making sure they do “one thing”.</p>
+
+<h2 id="descriptive-names">Descriptive Names</h2>
+
+<p>The smaller a function, the easier it is to choose a descriptive name.
+<strong>Don’t be afraid of making long names</strong>. A long descriptive name is better than a long descriptive comment. Be consistent in choosing names by using the same phrases, nouns and verbs in the function names you choose.</p>
+
+<h2 id="function-arguments">Function Arguments</h2>
+
+<p>The ideal number of arguments for a function is zero. Next is one, followed closely by two. Avoid ever having three arguments, whenever possible.</p>
+
+<h4 id="one-argument-functions">One-Argument Functions</h4>
+
+<p>Usually two reasons to pass a single argument and occasionally a third:</p>
+
+<ol>
+  <li>
+    <p>You want to ask a question about that argument. (e.g. boolean fileExists(“my_file”))</p>
+  </li>
+  <li>
+    <p>You want to operate on that argument, transform it into something else and return it. (e.g. InputStream fileOpen(“my_file”))</p>
+  </li>
+  <li>
+    <p>Occassionally we have single argument functions known as a  <em>events</em> meant to interpret the function call as an event and use the argument to alter the state of the system. (e.g. void passwordAttemptFailedNtimes(int attempts))</p>
+  </li>
+</ol>
+
+<p>Try to avoid one-argument functions that do not follow the above forms.</p>
+
+<h4 id="three-argument-functions">Three-Argument Functions</h4>
+
+<p>Are hard to understand because we have to worry about argument ordering.</p>
+
+<h4 id="argument-objects">Argument Objects</h4>
+
+<p>When a function needs more than two or three arguments, it’s a sign that some arguments should be wrapped into a class of their own.
+When groups of variables are passed together, they are likely part of a concept that deserves a name of its own.</p>
+
+<h4 id="flag-arguments">Flag Arguments</h4>
+
+<p>Passing a boolean into a function is bad practice. Boolean arguments proclaim that this function does more than one thing. One thing if flag is true, and another if flag is false.</p>
+
+<h4 id="verbs-and-keywords">Verbs and Keywords</h4>
+
+<p>Good function names go a long way in showing the intent of a function and the order and intent of arguments.</p>
+
+<p>Example, <strong>one-argument functions should follow a verb/noun pair</strong>. (e.g. writeField(name))</p>
+
+<h2 id="have-no-side-effects">Have No Side Effects</h2>
+
+<blockquote>
+  <p><strong>Function Side Effect</strong>: When a function promises to do one thing, but also does other <em>hidden</em> things.</p>
+</blockquote>
+
+<h2 id="command-query-seperation">Command Query Seperation</h2>
+
+<p>Functions should either do something or answer something, but <strong>not both</strong>.
+Either your function should change an object’s state or it should return information about the object.</p>
+
+<p>Suppose you have some function that alters an objects state and returns true if successful and false otherwise. The function is doing two things at once, specifically command and query. Example,</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="p">(</span><span class="n">setUsername</span><span class="p">(</span><span class="s">'username'</span><span class="p">,</span> <span class="s">'billy'</span><span class="p">)):</span> <span class="o">...</span></code></pre></figure>
+
+<p><strong>set</strong> assigns a specified name to username if the specified name does not exist.
+The solution is to seperate the command from the query.</p>
+
+<figure class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="p">(</span><span class="n">usernameExists</span><span class="p">(</span><span class="s">'billy'</span><span class="p">)):</span>
+   <span class="n">setUsername</span><span class="p">(</span><span class="s">'billy'</span><span class="p">)</span></code></pre></figure>
+
+<h2 id="prefer-exception-to-returning-error-codes">Prefer Exception to Returning Error Codes</h2>
+
+<h4 id="extract-trycatch-blocks">Extract Try/Catch Blocks</h4>
+
+<p>Best to extract the bodies of the try and catch blocks out into functions of their own.</p>
+
+<h4 id="error-handling-is-one-thing">Error Handling is One thing</h4>
+<p>A function that handles errors should do nothing else. This implies if the keywordtry exists in a function, it should be the
+very first word in the function and that there should be nothing after the catch blocks.</p>
 </p>   
 
   </div>
@@ -210,10 +280,12 @@ as we read down the list of functions (the facade at top , the details below).</
 </footer>
 <!-- End Footer Block  -->
 
+
 </div>
 <!-- End of Content Wrapper (open in head.html) -->
-</div>
-<!-- End Content Area (open in head.html) -->
+
+</main>
+<!-- End Main Area (open in head.html) -->
 
 </body> 
 

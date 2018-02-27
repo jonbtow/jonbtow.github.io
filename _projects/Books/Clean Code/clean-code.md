@@ -9,7 +9,8 @@ title: Clean Code
 <!-- Row Content -->
 <div class="w3-col w3-container" style="width:70%">
      <ol class="entry-previews">
-     {% for project in site.projects %}
+     {% assign sorted_projects = site.projects | sort:'path' %}
+     {% for project in sorted_projects %}
         {% if project.level == 1 %}
 	   <li>
 	    <p class="post-preview">

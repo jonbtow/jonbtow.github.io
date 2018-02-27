@@ -127,221 +127,54 @@
 <!-- End of Top Nav -->
 
 
-        <!--  About Section -->
-<div class="w3-container w3-margin-bottom section"
-     id="about"
-     >
-  
-  <!-- Section Title Row -->
-  <div class="w3-container">    
-    <div class="w3-twothird w3-container">     
-      <h2 class="section-h2"><p>About</p></h2>
-    </div>    
-  </div>
-  <!------------------->   
+<!-- Note Block -->
+<div class="w3-container w3-margin-bottom section" id="note">
 
-  <hr>
-  
-  <!-- Content -->
+  <!-- Note Content -->
   <div class="w3-container">
-    
-    <!-- Bio Row -->
-    <div class="w3-row">
+    <h1 class="text-center"> Classes </h1>
 
-      <!-- Row Title -->
-      <div class="w3-third w3-container">
-        Bio
-      </div>
-      <!--------------->
-      
-      <!-- Row Content -->
-      <div class="w3-twothird w3-container">
-        My name is Jonathan Tow. I am currently an undergraduate student at Stony Brook University studying
-	Computer Science and Applied Math & Statistics with a strong interest in data analysis.
-      </div>  
-      <!--------------->
-    </div>
-    <!-- End of Bio Row -->
-    
-    <hr>
-    
-    <!-- Resume Row -->
-    <div class="w3-row">
+    <p><h2 id="class-organization">Class Organization</h2>
 
-      <!-- Row Title -->
-      <div class="w3-third w3-container">
-        Resume
-      </div>
-      <!--------------->
-      
-      <!-- Row Content -->
-      <div class="w3-twothird w3-container">
-        <p>
-          <a href="data/resume/cv.pdf">
-            Resume 
-          </a>
-        </p>
-      </div>
-      <!--------------->
-      
-    </div>
-    <!-- End of Resume Row -->
-    
+<h2 id="encapsulation">Encapsulation</h2>
+<p>Like to keep variables and utility functions private, but do not be fanatic about it, though loosening encapsulation is always a last resort.</p>
+
+<h2 id="classes-should-be-small">Classes Should Be Small!</h2>
+<p>Smaller is the primary rule when it comes to designing classes.</p>
+
+<p>How small? In function we measure size by physical lines. With classes we count <em>responsibilities</em>. Responsibilities are the things a class has to deal with.</p>
+
+<p>The name of a class should describe what responsibilities it fills and can help determine class size. If you can’t derive a concise name for a class then it’s likely too large.</p>
+
+<h2 id="single-responsibility-principle-srp">Single Responsibility Principle (SRP)</h2>
+
+<blockquote>
+  <p><strong>SRP</strong>: A class or module should have one, and only one, reason to change (one responsibility). i.e. one reason to be rewritten.</p>
+</blockquote>
+
+<p>SRP gives us both a definition and responsibility, and a guideline for class size.</p>
+
+<p>Trying to find responsibilities (reasons to change) helps us recognize better abstractions in our code.</p>
+
+<p><strong>Example</strong>: Consider a module that compiles and prints a report. Imagine such a module can be changed for two reasons. First, the content of the report could change. Second, the format of the report could change. These two things change for very different causes; one substantive, and one cosmetic. The single responsibility principle says that these two aspects of the problem are really two separate responsibilities, and should therefore be in separate classes or modules.</p>
+
+<p>Every sizable system will contain a large amount of logic and complexity but the primary goal in managing such complexity is to <em>organize</em> it so that a developer knows where to look to find things and need only understand the directly affected complexity at any given time.</p>
+
+<p>Summary: We want the system to be composed of many small classes, not a few large ones. Each small class encapsulates a single responsibility, has a single reason to change, and collaborates with a few others to achieve the desired system behaviors.</p>
+
+<h2 id="cohesion">Cohesion</h2>
+
+<p>Classes should have a small number of instance variables.</p>
+
+<p>In general, the more variables a method manipulates the more cohesive that method is to its class.
+<strong>Want cohesion to be high</strong>. High cohesion means that methods and variables of the class are
+co-dependent and hang together as a logical whole.</p>
+</p>   
+
   </div>
-  <!-- End of Content -->
+
 </div>
-<!--  End of About Section -->
-
-    <!-- Projects Section -->
-<div class="w3-container w3-margin-bottom section"
-     id = "project"
-     >
-
-  <!-- Section Title Row -->
-  <div class="w3-row">
-
-    <div class="w3-twothird w3-container">      
-      <h2 class="section-h2">
-	<p>Projects
-	</p>
-      </h2>
-    </div>
-
-    <div class="w3-third w3-container">
-      <a href="#nav" class="top-link"> Back to top</a>
-    </div>
-  </div>
-  <!------------------->
-  
-  <hr>
-  
-  <!-- Note Projects Row -->
-  <div class="w3-row">
-
-    <!-- Row Content -->
-    <div class="w3-twothird w3-container">
-      <ol class="entry-previews">
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        
-	
-        <li>
-          <p class="post-preview">
-            <a href="/Books/">
-              Book Notes
-	      <br>
-            </a>
-
-	    Notes and Solutions from some textbooks I've enjoyed.
-
-	    <a href="/Books/">
-	      (read more)
-            </a>
-          </p>
-        </li>
-	
-        
-      </ol>
-    </div>
-    <!--------------->
-
-    <!-- End of Note Projects Row -->
-
-  </div>
-  <!-- End of Content -->
-</div>
-<!-- End of Projects Section -->
-
-    <!-- Blog Section -->
-<div class="w3-container w3-margin-bottom section"
-     id="blog"
-     >
-
-  <!-- Section Title Row -->
-  <div class="w3-container">
-    
-    <div class="w3-row">
-
-      <div class="w3-twothird w3-container">      
-	<h2 class="section-h2">
-	  <p>Blog
-	  </p>
-	</h2>
-      </div>
-
-      <div class="w3-third w3-container">
-	<a href="#nav" class="top-link"> Back to top</a>
-      </div>
-    </div>
-    
-  </div>
-  <!------------------->
-  
-  <hr>
-  
-  <!-- Content -->
-  <div class="w3-container">
-    
-    <!-- Blog Row -->
-    <div class="w3-row">
-      
-      <!-- Row Content -->
-      <div class="w3-col w3-container" style="width:100%">
-        <ol class="entry-previews">
-
-	  <!-- Limit the number of post here to 5 -->
-          
-          <li>
-            <p class="post-preview">
-              <a href="/2017/04/25/CSE-300.html">
-                What I liked about CSE 300.
-              </a>
-
-              <br> 
-
-	      This was a fun assignment.
-
-              <a href="/2017/04/25/CSE-300.html">
-                (read more)
-              </a>
-
-	      <br> 
-
-	      - April 25, 2017
-            </p>
-          </li>
-          	
-        </ol>
-      </div>
-      <!-------------------->
-      
-    </div>
-    <!-- End of Blog Row -->
-    
-  </div>
-  <!-- End of Content -->
-</div>
-<!-- End of Blog Section -->
-
-
+<!-- End of Note Block-->
 
 <!-- Footer -->
 <footer class="w3-row-padding nav-row">  
