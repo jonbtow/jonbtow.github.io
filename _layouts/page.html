@@ -1,6 +1,15 @@
-{% include _base/head.html %}
-{% include _base/nav.html %}
+<!DOCTYPE html>
+<html>
 
-    {{ content }}
+<body class="" data-spy="scroll" data-target="#myScrollspy" data-offset="20">
+    <main class="w3-content w3-margin-top" style="max-width:1400px;">
+        <div class="w3-row-padding">
+            {% include _base/head.html %} 
+            {% include _base/nav.html %} 
+            {{ content }} 
+            {% include _base/footer.html %}
+        </div>
+    </main>
+</body>
 
-{% include _base/footer.html %}
+</html>
